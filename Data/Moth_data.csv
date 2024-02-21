@@ -1,0 +1,1093 @@
+Date,Gridref,Quantity,Common_name,Taxon,Plot,Treatment,Treatment_code,Sub_site,Cloud_cover,Min_temp,Wind_speed,Wind_direction,Lunar_cycle,Precipitation,Record_ID
+27/06/2023,NO0554786825,1,Ingrailed Clay,Diarsia mendica,45,moorland,1,Allt Cristie West,100,13,4,WSW,waxing_gibbous,none,1
+27/06/2023,NO0542686828,1,Green Carpet,Colostygia pectinataria,43,moorland,1,Allt Cristie West,100,13,4,WSW,waxing_gibbous,none,2
+27/06/2023,NO0548286827,1,Ingrailed Clay,Diarsia mendica,44,moorland,1,Allt Cristie West,100,13,4,WSW,waxing_gibbous,none,3
+27/06/2023,NO0548286827,1,True Lover's Knot,Lycophotia porphyrea,44,moorland,1,Allt Cristie West,100,13,4,WSW,waxing_gibbous,none,4
+27/06/2023,NO0548286827,1,Grey Mountain Carpet,Entephria caesiata,44,moorland,1,Allt Cristie West,100,13,4,WSW,waxing_gibbous,none,5
+27/06/2023,NO0864190070,1,Silver-ground Carpet,Xanthorhoe montanata,20,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,6
+27/06/2023,NO0864190070,2,Purple Bar,Cosmorhoe ocellata,20,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,7
+27/06/2023,NO0864190070,3,Map-winged Swift,Korscheltellus fusconebulosa,20,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,8
+27/06/2023,NO0864190070,3,True Lover's Knot,Lycophotia porphyrea,20,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,9
+27/06/2023,NO0864190070,2,Green Carpet,Colostygia pectinataria,20,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,10
+27/06/2023,NO0864190070,1,,Pug spp,20,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,11
+27/06/2023,NO0864190070,1,Straw Grass-veneer,Agriphila straminella,20,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,12
+27/06/2023,NO0858190070,5,True Lover's Knot,Lycophotia porphyrea,19,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,13
+27/06/2023,NO0858190070,2,Bordered White,Bupalus piniaria,19,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,14
+27/06/2023,NO0858190070,1,Dusky Brocade,Apamea remissa,19,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,15
+27/06/2023,NO0858190070,1,Common Marbled Carpet,Dysstroma truncata,19,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,16
+27/06/2023,NO0858190070,2,Green Carpet,Colostygia pectinataria,19,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,17
+27/06/2023,NO0869990052,3,Bordered White,Bupalus piniaria,21,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,18
+27/06/2023,NO0869990052,2,Ingrailed Clay,Diarsia mendica,21,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,19
+27/06/2023,NO0869990052,1,Narrow-winged Pug,Eupithecia nanata,21,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,20
+27/06/2023,NO0869990052,1,Common Grey,Scoparia ambigualis,21,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,21
+27/06/2023,NO0869990052,1,Straw Grass-veneer,Agriphila straminella,21,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,22
+27/06/2023,NO0869990052,3,True Lover's Knot,Lycophotia porphyrea,21,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,23
+27/06/2023,NO0869990052,2,Mottled Beauty,Alcis repandata,21,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,24
+27/06/2023,NO0869990052,1,Grey Pine Carpet,Thera obeliscata,21,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,25
+27/06/2023,NO0869990052,1,Map-winged Swift,Korscheltellus fusconebulosa,21,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,26
+27/06/2023,NO0869990052,1,Middle-barred Minor,Oligia fasciuncula,21,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,27
+27/06/2023,NO0869990052,1,Common Marble,Celypha lacunana,21,regeneration,2,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,28
+27/06/2023,NO0779790144,13,Bordered White,Bupalus piniaria,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,29
+27/06/2023,NO0779790144,2,Common Marble,Celypha lacunana,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,30
+27/06/2023,NO0779790144,2,Hook-streak Grass-veneer,Crambus lathoniellus,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,31
+27/06/2023,NO0779790144,1,Common Wave,Cabera exanthemata,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,32
+27/06/2023,NO0779790144,1,Common Grey,Scoparia ambigualis,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,33
+27/06/2023,NO0779790144,2,Coxcomb Prominent,Ptilodon capucina,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,34
+27/06/2023,NO0779790144,2,Broom Moth,Ceramica pisi,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,35
+27/06/2023,NO0779790144,1,Pale-shouldered Brocade,Lacanobia thalassina,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,36
+27/06/2023,NO0779790144,1,Ingrailed Clay,Diarsia mendica,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,37
+27/06/2023,NO0779790144,2,True Lover's Knot,Lycophotia porphyrea,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,38
+27/06/2023,NO0779790144,1,Scotch Grass-veneer,Catoptria permutatellus,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,39
+27/06/2023,NO0779790144,1,Purple Bar,Cosmorhoe ocellata,14,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,40
+27/06/2023,NO0774190130,5,Bordered White,Bupalus piniaria,13,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,41
+27/06/2023,NO0774190130,7,True Lover's Knot,Lycophotia porphyrea,13,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,42
+27/06/2023,NO0774190130,1,Coxcomb Prominent,Ptilodon capucina,13,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,43
+27/06/2023,NO0774190130,1,Map-winged Swift,Korscheltellus fusconebulosa,13,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,44
+27/06/2023,NO0774190130,1,Common Marble,Celypha lacunana,13,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,45
+27/06/2023,NO0774190070,1,Narrow-winged Pug,Eupithecia nanata,15,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,46
+27/06/2023,NO0774190070,1,Common White Wave,Cabera pusaria,15,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,47
+27/06/2023,NO0774190070,3,Map-winged Swift,Korscheltellus fusconebulosa,15,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,48
+27/06/2023,NO0774190070,1,Common Wave,Cabera exanthemata,15,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,49
+27/06/2023,NO0774190070,8,True Lover's Knot,Lycophotia porphyrea,15,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,50
+27/06/2023,NO0774190070,1,Broom Moth,Ceramica pisi,15,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,51
+27/06/2023,NO0774190070,4,Bordered White,Bupalus piniaria,15,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,52
+27/06/2023,NO0774190070,1,Ingrailed Clay,Diarsia mendica,15,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,53
+27/06/2023,NO0774190070,1,,Scrobipalpa spp,15,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,54
+27/06/2023,NO0774190070,1,Scotch Grass-veneer,Catoptria permutatellus,15,woodland,3,Glen Dee Central,100,13,4,WSW,waxing_gibbous,none,55
+28/06/2023,NO0432189194,1,Ingrailed Clay,Diarsia mendica,37,moorland,1,Glen Dee West,20,7,3,WSW,waxing_gibbous,none,56
+28/06/2023,NO0438189194,2,Ingrailed Clay,Diarsia mendica,38,moorland,1,Glen Dee West,20,7,3,WSW,waxing_gibbous,none,57
+28/06/2023,NO0438189194,1,True Lover's Knot,Lycophotia porphyrea,38,moorland,1,Glen Dee West,20,7,3,WSW,waxing_gibbous,none,58
+28/06/2023,NO0504192950,1,Purple Bar,Cosmorhoe ocellata,9,regeneration,2,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,59
+28/06/2023,NO0504192950,3,Ingrailed Clay,Diarsia mendica,9,regeneration,2,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,60
+28/06/2023,NO0504192950,1,Grey Mountain Carpet,Entephria caesiata,9,regeneration,2,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,61
+28/06/2023,NO0504192950,1,Scotch Annulet,Gnophos obfuscata,9,regeneration,2,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,62
+28/06/2023,NO0498193010,5,Ingrailed Clay,Diarsia mendica,7,regeneration,2,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,63
+28/06/2023,NO0402293788,1,Mottled Beauty,Alcis repandata,3,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,64
+28/06/2023,NO0402293788,8,Ingrailed Clay,Diarsia mendica,3,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,65
+28/06/2023,NO0402293788,1,Common Marble,Celypha lacunana,3,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,66
+28/06/2023,NO0396193850,14,Ingrailed Clay,Diarsia mendica,1,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,67
+28/06/2023,NO0396193850,4,Silver-ground Carpet,Xanthorhoe montanata,1,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,68
+28/06/2023,NO0396193850,1,True Lover's Knot,Lycophotia porphyrea,1,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,69
+28/06/2023,NO0396193850,1,Smoky Wave,Scopula ternata,1,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,70
+28/06/2023,NO0396193790,14,Ingrailed Clay,Diarsia mendica,2,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,71
+28/06/2023,NO0396193790,1,Map-winged Swift,Korscheltellus fusconebulosa,2,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,72
+28/06/2023,NO0396193790,2,Silver-ground Carpet,Xanthorhoe montanata,2,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,73
+28/06/2023,NO0396193790,2,Mottled Beauty,Alcis repandata,2,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,74
+28/06/2023,NO0396193790,2,Grey Mountain Carpet,Entephria caesiata,2,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,75
+28/06/2023,NO0396193790,1,True Lover's Knot,Lycophotia porphyrea,2,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,76
+28/06/2023,NO0396193790,1,Common Marble,Celypha lacunana,2,woodland,3,Glen Derry/Lui,20,7,3,WSW,waxing_gibbous,none,77
+29/06/2023,NO1159391550,3,Ingrailed Clay,Diarsia mendica,33,regeneration,2,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,78
+29/06/2023,NO1159391550,1,Grey Pine Carpet,Thera obeliscata,33,regeneration,2,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,79
+29/06/2023,NO1159391550,1,Dusky Brocade,Apamea remissa,33,regeneration,2,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,80
+29/06/2023,NO1152191510,2,Ingrailed Clay,Diarsia mendica,32,regeneration,2,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,81
+29/06/2023,NO1152191510,1,Mottled Beauty,Alcis repandata,32,regeneration,2,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,82
+29/06/2023,NO1152191510,1,Dusky Brocade,Apamea remissa,32,regeneration,2,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,83
+29/06/2023,NO1146191510,1,Broom Moth,Ceramica pisi,31,regeneration,2,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,84
+29/06/2023,NO1008191990,21,Mottled Beauty,Alcis repandata,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,85
+29/06/2023,NO1008191990,2,Common Lutestring,Ochropacha duplaris,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,86
+29/06/2023,NO1008191990,10,Common Marbled Carpet,Dysstroma truncata,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,87
+29/06/2023,NO1008191990,2,Common Wave,Cabera exanthemata,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,88
+29/06/2023,NO1008191990,1,Common Marble,Celypha lacunana,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,89
+29/06/2023,NO1008191990,1,Welsh Wave,Venusia cambrica,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,90
+29/06/2023,NO1008191990,22,Ingrailed Clay,Diarsia mendica,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,91
+29/06/2023,NO1008191990,2,Purple Bar,Cosmorhoe ocellata,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,92
+29/06/2023,NO1008191990,1,Peacock Moth,Macaria notata,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,93
+29/06/2023,NO1008191990,3,Large Ivy Tortrix,Lozotaenia forsterana,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,94
+29/06/2023,NO1008191990,1,Lesser Swallow Prominent,Pheosia gnoma,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,95
+29/06/2023,NO1008191990,6,Coxcomb Prominent,Ptilodon capucina,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,96
+29/06/2023,NO1008191990,1,Map-winged Swift,Korscheltellus fusconebulosa,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,97
+29/06/2023,NO1008191990,4,True Lover's Knot,Lycophotia porphyrea,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,98
+29/06/2023,NO1008191990,2,Silver-ground Carpet,Xanthorhoe montanata,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,99
+29/06/2023,NO1008191990,1,Grey Mountain Carpet,Entephria caesiata,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,100
+29/06/2023,NO1008191990,1,Grey Pine Carpet,Thera obeliscata,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,101
+29/06/2023,NO1008191990,1,Common Grey,Scoparia ambigualis,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,102
+29/06/2023,NO1008191990,1,Wormwood Pug,Eupithecia absinthiata,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,103
+29/06/2023,NO1008191990,1,Narrow-winged Pug,Eupithecia nanata,25,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,104
+29/06/2023,NO1019692008,3,Common Marbled Carpet,Dysstroma truncata,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,105
+29/06/2023,NO1019692008,5,Mottled Beauty,Alcis repandata,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,106
+29/06/2023,NO1019692008,2,Welsh Wave,Venusia cambrica,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,107
+29/06/2023,NO1019692008,1,Purple Clay,Diarsia brunnea,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,108
+29/06/2023,NO1019692008,1,Dark Arches,Apamea monoglypha,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,109
+29/06/2023,NO1019692008,2,Grey Pine Carpet,Thera obeliscata,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,110
+29/06/2023,NO1019692008,1,Lesser Swallow Prominent,Pheosia gnoma,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,111
+29/06/2023,NO1019692008,11,Ingrailed Clay,Diarsia mendica,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,112
+29/06/2023,NO1019692008,4,True Lover's Knot,Lycophotia porphyrea,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,113
+29/06/2023,NO1019692008,1,Wormwood Pug,Eupithecia absinthiata,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,114
+29/06/2023,NO1019692008,1,Large Emerald,Geometra papilionaria,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,115
+29/06/2023,NO1019692008,3,Coxcomb Prominent,Ptilodon capucina,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,116
+29/06/2023,NO1019692008,1,Common Lutestring,Ochropacha duplaris,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,117
+29/06/2023,NO1019692008,1,Oak Eggar,Lasiocampa quercus,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,118
+29/06/2023,NO1019692008,1,Grey Mountain Carpet,Entephria caesiata,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,119
+29/06/2023,NO1019692008,1,Smoky Wave,Scopula ternata,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,120
+29/06/2023,NO1019692008,1,Common White Wave,Cabera pusaria,26,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,121
+29/06/2023,NO1027791977,1,Scarce Silver Y,Syngrapha interrogationis,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,122
+29/06/2023,NO1027791977,1,Welsh Wave,Venusia cambrica,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,123
+29/06/2023,NO1027791977,3,Coxcomb Prominent,Ptilodon capucina,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,124
+29/06/2023,NO1027791977,4,Grey Mountain Carpet,Entephria caesiata,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,125
+29/06/2023,NO1027791977,1,Barred Red,Hylaea fasciaria,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,126
+29/06/2023,NO1027791977,1,Wormwood Pug,Eupithecia absinthiata,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,127
+29/06/2023,NO1027791977,2,Common Marble,Celypha lacunana,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,128
+29/06/2023,NO1027791977,8,Mottled Beauty,Alcis repandata,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,129
+29/06/2023,NO1027791977,22,Ingrailed Clay,Diarsia mendica,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,130
+29/06/2023,NO1027791977,7,True Lover's Knot,Lycophotia porphyrea,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,131
+29/06/2023,NO1027791977,2,Lesser Swallow Prominent,Pheosia gnoma,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,132
+29/06/2023,NO1027791977,1,Common Wave,Cabera exanthemata,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,133
+29/06/2023,NO1027791977,1,Pine Groundling,Exoteleia dodecella,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,134
+29/06/2023,NO1027791977,1,Common Marble,Celypha lacunana,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,135
+29/06/2023,NO1027791977,1,Northern Tubic,Denisia similella,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,136
+29/06/2023,NO1027791977,1,Bordered White,Bupalus piniaria,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,137
+29/06/2023,NO1027791977,1,Large Ivy Tortrix,Lozotaenia forsterana,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,138
+29/06/2023,NO1027791977,1,Large Emerald,Geometra papilionaria,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,139
+29/06/2023,NO1027791977,3,Common Lutestring,Ochropacha duplaris,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,140
+29/06/2023,NO1027791977,1,Silver-ground Carpet,Xanthorhoe montanata,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,141
+29/06/2023,NO1027791977,2,Barred Red,Hylaea fasciaria,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,142
+29/06/2023,NO1027791977,1,Smoky Wave,Scopula ternata,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,143
+29/06/2023,NO1027791977,1,Common White Wave,Cabera pusaria,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,144
+29/06/2023,NO1027791977,1,Common Marbled Carpet,Dysstroma truncata,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,145
+29/06/2023,NO1027791977,1,Narrow-winged Pug,Eupithecia nanata,27,woodland,3,Glen Quoich,100,11,5,WSW,waxing_gibbous,none,146
+29/06/2023,NO0720187070,1,Narrow-winged Pug,Eupithecia nanata,51,moorland,1,Allt Christie East,100,11,5,WSW,waxing_gibbous,none,147
+29/06/2023,NO0720187070,1,Gold Spot,Plusia festucae,51,moorland,1,Allt Christie East,100,11,5,WSW,waxing_gibbous,none,148
+29/06/2023,NO0720187070,1,Scotch Annulet,Gnophos obfuscata,51,moorland,1,Allt Christie East,100,11,5,WSW,waxing_gibbous,none,149
+29/06/2023,NO0714187070,1,Ingrailed Clay,Diarsia mendica,50,moorland,1,Allt Christie East,100,11,5,WSW,waxing_gibbous,none,150
+29/06/2023,NO0708187070,2,Scotch Annulet,Gnophos obfuscata,49,moorland,1,Allt Christie East,100,11,5,WSW,waxing_gibbous,none,151
+29/06/2023,NO0708187070,1,Scarce Silver Y,Syngrapha interrogationis,49,moorland,1,Allt Christie East,100,11,5,WSW,waxing_gibbous,none,152
+04/07/2023,NO0432189134,17,True Lover's Knot,Lycophotia porphyrea,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,153
+04/07/2023,NO0432189134,2,Green Carpet,Colostygia pectinataria,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,154
+04/07/2023,NO0432189134,2,Mottled Beauty,Alcis repandata,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,155
+04/07/2023,NO0432189134,14,Ingrailed Clay,Diarsia mendica,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,156
+04/07/2023,NO0432189134,1,Scarce Silver Y,Syngrapha interrogationis,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,157
+04/07/2023,NO0432189134,1,Narrow-winged Pug,Eupithecia nanata,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,158
+04/07/2023,NO0432189134,13,Wormwood Pug,Eupithecia absinthiata,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,159
+04/07/2023,NO0432189134,1,Straw Grass-veneer,Agriphila straminella,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,160
+04/07/2023,NO0432189134,1,,Thera obeliscata,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,161
+04/07/2023,NO0432189134,1,Pine Groundling,Exoteleia dodecella,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,162
+04/07/2023,NO0432189134,1,Hawthorn Argent,Argyresthia bonnetella,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,163
+04/07/2023,NO0432189134,1,Pale Eggar,Trichiura crataegi,40,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,164
+04/07/2023,NO0490492849,11,Ingrailed Clay,Diarsia mendica,12,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,165
+04/07/2023,NO0490492849,1,Smoky Wave,Scopula ternata,12,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,166
+04/07/2023,NO0490492849,1,Wormwood Pug,Eupithecia absinthiata,12,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,167
+04/07/2023,NO0490492849,5,True Lover's Knot,Lycophotia porphyrea,12,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,168
+04/07/2023,NO0490492849,1,Thyme Plume,Merrifieldia leucodactyla,12,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,169
+04/07/2023,NO0490492849,2,Narrow-winged Pug,Eupithecia nanata,12,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,170
+04/07/2023,NO0490492849,1,July Belle,Scotopteryx luridata,12,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,171
+04/07/2023,NO0490492849,1,Purple Bar,Cosmorhoe ocellata,12,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,172
+04/07/2023,NO0490492849,5,Mottled Beauty,Alcis repandata,12,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,173
+04/07/2023,NO0498492879,10,Wormwood Pug,Eupithecia absinthiata,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,174
+04/07/2023,NO0498492879,1,Grey Pine Carpet,Thera obeliscata,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,175
+04/07/2023,NO0498492879,1,Common Marbled Carpet,Dysstroma truncata,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,176
+04/07/2023,NO0498492879,3,Mottled Beauty,Alcis repandata,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,177
+04/07/2023,NO0498492879,3,Green Carpet,Colostygia pectinataria,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,178
+04/07/2023,NO0498492879,2,Scarce Silver Y,Syngrapha interrogationis,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,179
+04/07/2023,NO0498492879,10,Ingrailed Clay,Diarsia mendica,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,180
+04/07/2023,NO0498492879,2,Common Wave,Cabera exanthemata,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,181
+04/07/2023,NO0498492879,1,Purple Bar,Cosmorhoe ocellata,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,182
+04/07/2023,NO0498492879,9,True Lover's Knot,Lycophotia porphyrea,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,183
+04/07/2023,NO0498492879,2,July Belle,Scotopteryx luridata,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,184
+04/07/2023,NO0498492879,2,Narrow-winged Pug,Eupithecia nanata,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,185
+04/07/2023,NO0498492879,1,Purple Clay,Diarsia brunnea,11,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,186
+04/07/2023,NO0444189134,2,Grey Mountain Carpet,Entephria caesiata,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,187
+04/07/2023,NO0444189134,13,Wormwood Pug,Eupithecia absinthiata,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,188
+04/07/2023,NO0444189134,1,Grey Pine Carpet,Thera obeliscata,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,189
+04/07/2023,NO0444189134,13,True Lover's Knot,Lycophotia porphyrea,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,190
+04/07/2023,NO0444189134,14,Ingrailed Clay,Diarsia mendica,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,191
+04/07/2023,NO0444189134,1,Straw Grass-veneer,Agriphila straminella,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,192
+04/07/2023,NO0444189134,2,Broom Moth,Ceramica pisi,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,193
+04/07/2023,NO0444189134,2,Green Carpet,Colostygia pectinataria,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,194
+04/07/2023,NO0444189134,1,Dark Tussock,Dicallomera fascelina,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,195
+04/07/2023,NO0444189134,1,Lesser Swallow Prominent,Pheosia gnoma,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,196
+04/07/2023,NO0444189134,1,Dusky Brocade,Apamea remissa,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,197
+04/07/2023,NO0444189134,1,Pine Groundling,Exoteleia dodecella,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,198
+04/07/2023,NO0444189134,1,Narrow-winged Pug,Eupithecia nanata,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,199
+04/07/2023,NO0444189134,1,Diamond-back Moth,Plutella xylostella,42,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,200
+04/07/2023,NO0493192909,6,July Belle,Scotopteryx luridata,10,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,201
+04/07/2023,NO0493192909,8,Mottled Beauty,Alcis repandata,10,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,202
+04/07/2023,NO0493192909,4,Grey Pine Carpet,Thera obeliscata,10,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,203
+04/07/2023,NO0493192909,10,Ingrailed Clay,Diarsia mendica,10,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,204
+04/07/2023,NO0493192909,2,True Lover's Knot,Lycophotia porphyrea,10,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,205
+04/07/2023,NO0493192909,1,Narrow-winged Pug,Eupithecia nanata,10,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,206
+04/07/2023,NO0493192909,1,Common Lutestring,Ochropacha duplaris,10,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,207
+04/07/2023,NO0493192909,2,Common Marbled Carpet,Dysstroma truncata,10,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,208
+04/07/2023,NO0493192909,1,Large Ivy Tortrix,Lozotaenia forsterana,10,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,209
+04/07/2023,NO0493192909,1,Barred Red,Hylaea fasciaria,10,regeneration,2,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,210
+04/07/2023,NO0438189134,2,Grey Mountain Carpet,Entephria caesiata,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,211
+04/07/2023,NO0438189134,3,Common Marbled Carpet,Dysstroma truncata,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,212
+04/07/2023,NO0438189134,25,Wormwood Pug,Eupithecia absinthiata,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,213
+04/07/2023,NO0438189134,9,Narrow-winged Pug,Eupithecia nanata,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,214
+04/07/2023,NO0438189134,18,True Lover's Knot,Lycophotia porphyrea,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,215
+04/07/2023,NO0438189134,1,Smoky Wainscot,Mythimna impura,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,216
+04/07/2023,NO0438189134,7,Green Carpet,Colostygia pectinataria,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,217
+04/07/2023,NO0438189134,13,Ingrailed Clay,Diarsia mendica,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,218
+04/07/2023,NO0438189134,1,Dark Arches,Apamea monoglypha,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,219
+04/07/2023,NO0438189134,1,Diamond-back Moth,Plutella xylostella,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,220
+04/07/2023,NO0438189134,1,Hawthorn Argent,Argyresthia bonnetella,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,221
+04/07/2023,NO0438189134,2,Dusky Brocade,Apamea remissa,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,222
+04/07/2023,NO0438189134,1,Gold Spot,Plusia festucae,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,223
+04/07/2023,NO0438189134,1,Mottled Beauty,Alcis repandata,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,224
+04/07/2023,NO0438189134,1,Broom Moth,Ceramica pisi,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,225
+04/07/2023,NO0438189134,1,Scarce Silver Y,Syngrapha interrogationis,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,226
+04/07/2023,NO0438189134,1,Garden Tiger,Arctia caja,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,227
+04/07/2023,NO0438189134,1,Purple Bar,Cosmorhoe ocellata,41,moorland,1,Glen Dee West,50,9,2,E,full_moon,heavy_showers,228
+04/07/2023,NO0402193730,11,True Lover's Knot,Lycophotia porphyrea,6,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,229
+04/07/2023,NO0402193730,4,Mottled Beauty,Alcis repandata,6,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,230
+04/07/2023,NO0402193730,1,Diamond-back Moth,Plutella xylostella,6,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,231
+04/07/2023,NO0402193730,5,Ingrailed Clay,Diarsia mendica,6,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,232
+04/07/2023,NO0402193730,1,Green Carpet,Colostygia pectinataria,6,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,233
+04/07/2023,NO0402193730,2,Silver-ground Carpet,Xanthorhoe montanata,6,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,234
+04/07/2023,NO0402193730,1,Common Marbled Carpet,Dysstroma truncata,6,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,235
+04/07/2023,NO0402193730,1,Wormwood Pug,Eupithecia absinthiata,6,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,236
+04/07/2023,NO0396193730,4,Silver-ground Carpet,Xanthorhoe montanata,5,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,237
+04/07/2023,NO0396193730,2,Smoky Wave,Scopula ternata,5,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,238
+04/07/2023,NO0396193730,1,Common Marble,Celypha lacunana,5,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,239
+04/07/2023,NO0396193730,4,Mottled Beauty,Alcis repandata,5,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,240
+04/07/2023,NO0396193730,16,True Lover's Knot,Lycophotia porphyrea,5,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,241
+04/07/2023,NO0396193730,12,Ingrailed Clay,Diarsia mendica,5,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,242
+04/07/2023,NO0396193730,2,Barred Red,Hylaea fasciaria,5,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,243
+04/07/2023,NO0408193790,1,Wormwood Pug,Eupithecia absinthiata,4,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,244
+04/07/2023,NO0408193790,13,Ingrailed Clay,Diarsia mendica,4,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,245
+04/07/2023,NO0408193790,9,True Lover's Knot,Lycophotia porphyrea,4,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,246
+04/07/2023,NO0408193790,2,Barred Red,Hylaea fasciaria,4,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,247
+04/07/2023,NO0408193790,2,Green Carpet,Colostygia pectinataria,4,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,248
+04/07/2023,NO0408193790,1,Silver-ground Carpet,Xanthorhoe montanata,4,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,249
+04/07/2023,NO0408193790,1,Mottled Beauty,Alcis repandata,4,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,250
+04/07/2023,NO0408193790,1,Coxcomb Prominent,Ptilodon capucina,4,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,251
+04/07/2023,NO0408193790,1,Smoky Wave,Scopula ternata,4,woodland,3,Glen Derry/Lui,50,9,2,E,full_moon,heavy_showers,252
+05/07/2023,NO0792190070,2,Mottled Beauty,Alcis repandata,18,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,253
+05/07/2023,NO0792190070,1,Barred Red,Hylaea fasciaria,18,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,254
+05/07/2023,NO0792190070,4,Ingrailed Clay,Diarsia mendica,18,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,255
+05/07/2023,NO0792190070,1,Coxcomb Prominent,Ptilodon capucina,18,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,256
+05/07/2023,NO0792190070,1,True Lover's Knot,Lycophotia porphyrea,18,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,257
+05/07/2023,NO0890590077,6,Ingrailed Clay,Diarsia mendica,24,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,258
+05/07/2023,NO0890590077,2,True Lover's Knot,Lycophotia porphyrea,24,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,259
+05/07/2023,NO0890590077,1,Dusky Brocade,Apamea remissa,24,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,260
+05/07/2023,NO0890590077,1,Coxcomb Prominent,Ptilodon capucina,24,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,261
+05/07/2023,NO0548286761,1,Scarce Silver Y,Syngrapha interrogationis,47,moorland,1,Allt Cristie West,50,7,3,WSW,full_moon,none,262
+05/07/2023,NO0548286761,1,Dark Tussock,Dicallomera fascelina,47,moorland,1,Allt Cristie West,50,7,3,WSW,full_moon,none,263
+05/07/2023,NO0548286761,4,Ingrailed Clay,Diarsia mendica,47,moorland,1,Allt Cristie West,50,7,3,WSW,full_moon,none,264
+05/07/2023,NO0554886760,1,Scarce Silver Y,Syngrapha interrogationis,48,moorland,1,Allt Cristie West,50,7,3,WSW,full_moon,none,265
+05/07/2023,NO0554886760,6,Ingrailed Clay,Diarsia mendica,48,moorland,1,Allt Cristie West,50,7,3,WSW,full_moon,none,266
+05/07/2023,NO0554886760,1,Dark Arches,Apamea monoglypha,48,moorland,1,Allt Cristie West,50,7,3,WSW,full_moon,none,267
+05/07/2023,NO0542586763,1,True Lover's Knot,Lycophotia porphyrea,46,moorland,1,Allt Cristie West,50,7,3,WSW,full_moon,none,268
+05/07/2023,NO0786190070,2,True Lover's Knot,Lycophotia porphyrea,17,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,269
+05/07/2023,NO0786190070,1,Common Marble,Celypha lacunana,17,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,270
+05/07/2023,NO0786190070,3,Ingrailed Clay,Diarsia mendica,17,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,271
+05/07/2023,NO0780190070,4,True Lover's Knot,Lycophotia porphyrea,16,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,272
+05/07/2023,NO0780190070,2,Ingrailed Clay,Diarsia mendica,16,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,273
+05/07/2023,NO0780190070,1,Purple Bar,Cosmorhoe ocellata,16,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,274
+05/07/2023,NO0780190070,1,Barred Red,Hylaea fasciaria,16,woodland,3,Glen Dee Central,50,7,3,WSW,full_moon,none,275
+05/07/2023,NO0876190070,1,Mottled Beauty,Alcis repandata,22,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,276
+05/07/2023,NO0876190070,1,Dark Tussock,Dicallomera fascelina,22,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,277
+05/07/2023,NO0876190070,1,True Lover's Knot,Lycophotia porphyrea,22,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,278
+05/07/2023,NO0876190070,4,Ingrailed Clay,Diarsia mendica,22,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,279
+05/07/2023,NO0876190070,1,Broom Moth,Ceramica pisi,22,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,280
+05/07/2023,NO0876190070,1,Coxcomb Prominent,Ptilodon capucina,22,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,281
+05/07/2023,NO0876190070,1,Scarce Silver Y,Syngrapha interrogationis,22,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,282
+05/07/2023,NO0876190070,1,Gold Spangle,Autographa bractea,22,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,283
+05/07/2023,NO0883190069,1,Wormwood Pug,Eupithecia absinthiata,23,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,284
+05/07/2023,NO0883190069,1,Mottled Beauty,Alcis repandata,23,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,285
+05/07/2023,NO0883190069,3,Ingrailed Clay,Diarsia mendica,23,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,286
+05/07/2023,NO0883190069,1,Common Marbled Carpet,Dysstroma truncata,23,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,287
+05/07/2023,NO0883190069,1,True Lover's Knot,Lycophotia porphyrea,23,regeneration,2,Glen Dee Central,50,7,3,WSW,full_moon,none,288
+06/07/2023,NO0722487017,1,Scotch Annulet,Gnophos obfuscata,53,moorland,1,Allt Christie East,100,12,3,SE,full_moon,light_showers,289
+06/07/2023,NO0728987016,3,Ingrailed Clay,Diarsia mendica,54,moorland,1,Allt Christie East,100,12,3,SE,full_moon,light_showers,290
+06/07/2023,NO0728987016,1,Scarce Silver Y,Syngrapha interrogationis,54,moorland,1,Allt Christie East,100,12,3,SE,full_moon,light_showers,291
+06/07/2023,NO0716686990,2,Ingrailed Clay,Diarsia mendica,52,moorland,1,Allt Christie East,100,12,3,SE,full_moon,light_showers,292
+06/07/2023,NO0716686990,1,True Lover's Knot,Lycophotia porphyrea,52,moorland,1,Allt Christie East,100,12,3,SE,full_moon,light_showers,293
+06/07/2023,NO1008191930,3,Welsh Wave,Venusia cambrica,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,294
+06/07/2023,NO1008191930,2,Common Marbled Carpet,Dysstroma truncata,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,295
+06/07/2023,NO1008191930,2,Green Carpet,Colostygia pectinataria,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,296
+06/07/2023,NO1008191930,1,Straw Grass-veneer,Agriphila straminella,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,297
+06/07/2023,NO1008191930,2,Common Marble,Celypha lacunana,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,298
+06/07/2023,NO1008191930,1,Purple Clay,Diarsia brunnea,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,299
+06/07/2023,NO1008191930,6,Mottled Beauty,Alcis repandata,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,300
+06/07/2023,NO1008191930,16,Ingrailed Clay,Diarsia mendica,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,301
+06/07/2023,NO1008191930,1,Coxcomb Prominent,Ptilodon capucina,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,302
+06/07/2023,NO1008191930,1,True Lover's Knot,Lycophotia porphyrea,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,303
+06/07/2023,NO1008191930,1,Lesser Swallow Prominent,Pheosia gnoma,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,304
+06/07/2023,NO1008191930,1,Grey Pine Carpet,Thera obeliscata,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,305
+06/07/2023,NO1008191930,1,Grey Mountain Carpet,Entephria caesiata,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,306
+06/07/2023,NO1008191930,1,Wormwood Pug,Eupithecia absinthiata,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,307
+06/07/2023,NO1008191930,1,Light Emerald,Campaea margaritaria,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,308
+06/07/2023,NO1008191930,1,Common White Wave,Cabera pusaria,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,309
+06/07/2023,NO1008191930,1,Golden Argent,Argyresthia goedartella,28,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,310
+06/07/2023,NO1152191450,3,Green Carpet,Colostygia pectinataria,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,311
+06/07/2023,NO1152191450,3,Scarce Silver Y,Syngrapha interrogationis,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,312
+06/07/2023,NO1152191450,2,Wormwood Pug,Eupithecia absinthiata,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,313
+06/07/2023,NO1152191450,1,Mottled Beauty,Alcis repandata,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,314
+06/07/2023,NO1152191450,4,True Lover's Knot,Lycophotia porphyrea,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,315
+06/07/2023,NO1152191450,1,Scotch Annulet,Gnophos obfuscata,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,316
+06/07/2023,NO1152191450,1,White Sallow Bell,Epinotia subocellana,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,317
+06/07/2023,NO1152191450,1,Narrow-winged Pug,Eupithecia nanata,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,318
+06/07/2023,NO1152191450,2,Dark Arches,Apamea monoglypha,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,319
+06/07/2023,NO1152191450,1,Barred Red,Hylaea fasciaria,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,320
+06/07/2023,NO1152191450,1,Pebble Prominent,Notodonta ziczac,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,321
+06/07/2023,NO1152191450,1,Dusky Brocade,Apamea remissa,34,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,322
+06/07/2023,NO1158191450,1,Purple Bar,Cosmorhoe ocellata,35,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,323
+06/07/2023,NO1158191450,1,Green Carpet,Colostygia pectinataria,35,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,324
+06/07/2023,NO1158191450,2,True Lover's Knot,Lycophotia porphyrea,35,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,325
+06/07/2023,NO1158191450,3,Ingrailed Clay,Diarsia mendica,35,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,326
+06/07/2023,NO1158191450,2,Lesser Yellow Underwing,Noctua comes,35,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,327
+06/07/2023,NO1158191450,1,Smoky Wainscot,Mythimna impura,35,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,328
+06/07/2023,NO1158191450,1,Common Grey,Scoparia ambigualis,35,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,329
+06/07/2023,NO1158191450,1,Bordered White,Bupalus piniaria,35,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,330
+06/07/2023,NO1158191450,1,Grey Pine Carpet,Thera obeliscata,35,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,331
+06/07/2023,NO1158191450,1,,Moth spp,35,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,332
+06/07/2023,NO1016191913,6,Mottled Beauty,Alcis repandata,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,333
+06/07/2023,NO1016191913,2,Welsh Wave,Venusia cambrica,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,334
+06/07/2023,NO1016191913,2,Coxcomb Prominent,Ptilodon capucina,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,335
+06/07/2023,NO1016191913,1,Scarce Silver Y,Syngrapha interrogationis,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,336
+06/07/2023,NO1016191913,3,Common Marble,Celypha lacunana,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,337
+06/07/2023,NO1016191913,1,Wormwood Pug,Eupithecia absinthiata,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,338
+06/07/2023,NO1016191913,5,Common Marbled Carpet,Dysstroma truncata,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,339
+06/07/2023,NO1016191913,15,Ingrailed Clay,Diarsia mendica,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,340
+06/07/2023,NO1016191913,1,Barred Red,Hylaea fasciaria,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,341
+06/07/2023,NO1016191913,3,Lesser Swallow Prominent,Pheosia gnoma,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,342
+06/07/2023,NO1016191913,1,True Lover's Knot,Lycophotia porphyrea,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,343
+06/07/2023,NO1016191913,1,Iron Prominent,Notodonta dromedarius,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,344
+06/07/2023,NO1016191913,1,Common Lutestring,Ochropacha duplaris,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,345
+06/07/2023,NO1016191913,1,Purple Clay,Diarsia brunnea,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,346
+06/07/2023,NO1016191913,1,Green Carpet,Colostygia pectinataria,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,347
+06/07/2023,NO1016191913,1,Grey Mountain Carpet,Entephria caesiata,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,348
+06/07/2023,NO1016191913,1,Large Ivy Tortrix,Lozotaenia forsterana,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,349
+06/07/2023,NO1016191913,2,,Moth spp,29,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,350
+06/07/2023,NO1023791912,1,Purple Bar,Cosmorhoe ocellata,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,351
+06/07/2023,NO1023791912,1,Large Ivy Tortrix,Lozotaenia forsterana,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,352
+06/07/2023,NO1023791912,23,Mottled Beauty,Alcis repandata,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,353
+06/07/2023,NO1023791912,23,Ingrailed Clay,Diarsia mendica,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,354
+06/07/2023,NO1023791912,7,Common Marbled Carpet,Dysstroma truncata,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,355
+06/07/2023,NO1023791912,1,Common Marble,Celypha lacunana,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,356
+06/07/2023,NO1023791912,2,Welsh Wave,Venusia cambrica,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,357
+06/07/2023,NO1023791912,6,Grey Mountain Carpet,Entephria caesiata,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,358
+06/07/2023,NO1023791912,2,Grey Pine Carpet,Thera obeliscata,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,359
+06/07/2023,NO1023791912,1,Peppered Moth,Biston betularia,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,360
+06/07/2023,NO1023791912,1,Barred Red,Hylaea fasciaria,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,361
+06/07/2023,NO1023791912,6,True Lover's Knot,Lycophotia porphyrea,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,362
+06/07/2023,NO1023791912,4,Lesser Swallow Prominent,Pheosia gnoma,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,363
+06/07/2023,NO1023791912,5,Large Ivy Tortrix,Lozotaenia forsterana,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,364
+06/07/2023,NO1023791912,1,Brimstone Moth,Opisthograptis luteolata,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,365
+06/07/2023,NO1023791912,2,Green Carpet,Colostygia pectinataria,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,366
+06/07/2023,NO1023791912,1,Purple Clay,Diarsia brunnea,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,367
+06/07/2023,NO1023791912,1,Coxcomb Prominent,Ptilodon capucina,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,368
+06/07/2023,NO1023791912,1,Common White Wave,Cabera pusaria,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,369
+06/07/2023,NO1023791912,1,Bordered White,Bupalus piniaria,30,woodland,3,Glen Quoich,100,12,3,SE,full_moon,light_showers,370
+06/07/2023,NO1165491512,1,Purple Bar,Cosmorhoe ocellata,36,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,371
+06/07/2023,NO1165491512,4,Scarce Silver Y,Syngrapha interrogationis,36,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,372
+06/07/2023,NO1165491512,2,Narrow-winged Pug,Eupithecia nanata,36,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,373
+06/07/2023,NO1165491512,1,Barred Red,Hylaea fasciaria,36,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,374
+06/07/2023,NO1165491512,1,July Belle,Scotopteryx luridata,36,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,375
+06/07/2023,NO1165491512,1,Map-winged Swift,Korscheltellus fusconebulosa,36,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,376
+06/07/2023,NO1165491512,4,Ingrailed Clay,Diarsia mendica,36,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,377
+06/07/2023,NO1165491512,2,Wormwood Pug,Eupithecia absinthiata,36,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,378
+06/07/2023,NO1165491512,1,Scotch Annulet,Gnophos obfuscata,36,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,379
+06/07/2023,NO1165491512,1,Grey Pine Carpet,Thera obeliscata,36,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,380
+06/07/2023,NO1165491512,1,Clouded-bordered Brindle,Apamea crenata,36,regeneration,2,Glen Quoich,100,12,3,SE,full_moon,light_showers,381
+24/07/2023,NO0774190130,4,Barred Red,Hylaea fasciaria,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,382
+24/07/2023,NO0774190130,1,Mottled Beauty,Alcis repandata,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,383
+24/07/2023,NO0774190130,1,Common Marbled Carpet,Dysstroma truncata,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,384
+24/07/2023,NO0774190130,1,Large Emerald,Geometra papilionaria,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,385
+24/07/2023,NO0774190130,1,Smoky Wainscot,Mythimna impura,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,386
+24/07/2023,NO0774190130,1,Light Emerald,Campaea margaritaria,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,387
+24/07/2023,NO0774190130,12,True Lover's Knot,Lycophotia porphyrea,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,388
+24/07/2023,NO0774190130,12,Ingrailed Clay,Diarsia mendica,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,389
+24/07/2023,NO0774190130,3,Lesser Swallow Prominent,Pheosia gnoma,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,390
+24/07/2023,NO0774190130,1,Holly Tortrix,Rhopobota naevana,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,391
+24/07/2023,NO0774190130,1,Dark Arches,Apamea monoglypha,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,392
+24/07/2023,NO0774190130,1,Green Carpet,Colostygia pectinataria,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,393
+24/07/2023,NO0774190130,1,Wormwood Pug,Eupithecia absinthiata,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,394
+24/07/2023,NO0774190130,1,Northern Spinach,Eulithis populata,13,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,395
+24/07/2023,NO0869990052,3,Smoky Wainscot,Mythimna impura,21,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,396
+24/07/2023,NO0869990052,1,Dusky Brocade,Apamea remissa,21,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,397
+24/07/2023,NO0869990052,2,Lesser Swallow Prominent,Pheosia gnoma,21,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,398
+24/07/2023,NO0869990052,1,Garden Tiger,Arctia caja,21,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,399
+24/07/2023,NO0869990052,16,True Lover's Knot,Lycophotia porphyrea,21,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,400
+24/07/2023,NO0869990052,1,Dotted Clay,Xestia baja,21,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,401
+24/07/2023,NO0869990052,6,Ingrailed Clay,Diarsia mendica,21,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,402
+24/07/2023,NO0869990052,1,Lesser Yellow Underwing,Noctua comes,21,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,403
+24/07/2023,NO0869990052,1,Pale Eggar,Trichiura crataegi,21,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,404
+24/07/2023,NO0869990052,1,Wormwood Pug,Eupithecia absinthiata,21,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,405
+24/07/2023,NO0869990052,1,Dotted Shade,Eana osseana,21,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,406
+24/07/2023,NO0774190070,1,Grey Mountain Carpet,Entephria caesiata,15,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,407
+24/07/2023,NO0774190070,1,Common White Wave,Cabera pusaria,15,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,408
+24/07/2023,NO0774190070,3,Pearl-band Grass Veneer,Catoptria margaritella,15,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,409
+24/07/2023,NO0774190070,3,,Scoparia spp,15,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,410
+24/07/2023,NO0774190070,1,Mottled Beauty,Alcis repandata,15,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,411
+24/07/2023,NO0774190070,13,True Lover's Knot,Lycophotia porphyrea,15,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,412
+24/07/2023,NO0774190070,5,Ingrailed Clay,Diarsia mendica,15,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,413
+24/07/2023,NO0774190070,1,Common Grass-veneer,Agriphila tristella,15,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,414
+24/07/2023,NO0774190070,1,Lesser Swallow Prominent,Pheosia gnoma,15,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,415
+24/07/2023,NO0774190070,1,Dark Pine Knot-horn,Dioryctria abietella,15,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,416
+24/07/2023,NO0774190070,1,Dark Marbled Carpet,Dysstroma citrata,15,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,417
+24/07/2023,NO0858190070,17,True Lover's Knot,Lycophotia porphyrea,19,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,418
+24/07/2023,NO0858190070,1,Green Carpet,Colostygia pectinataria,19,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,419
+24/07/2023,NO0858190070,1,Lesser Swallow Prominent,Pheosia gnoma,19,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,420
+24/07/2023,NO0858190070,7,Ingrailed Clay,Diarsia mendica,19,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,421
+24/07/2023,NO0858190070,1,Antler Moth,Cerapteryx graminis,19,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,422
+24/07/2023,NO0858190070,1,Dark Arches,Apamea monoglypha,19,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,423
+24/07/2023,NO0858190070,1,Smoky Wainscot,Mythimna impura,19,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,424
+24/07/2023,NO0858190070,1,Dotted Shade,Eana osseana,19,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,425
+24/07/2023,NO0779790144,1,Purple Bar,Cosmorhoe ocellata,14,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,426
+24/07/2023,NO0779790144,1,Common White Wave,Cabera pusaria,14,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,427
+24/07/2023,NO0779790144,9,True Lover's Knot,Lycophotia porphyrea,14,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,428
+24/07/2023,NO0779790144,1,Lesser Swallow Prominent,Pheosia gnoma,14,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,429
+24/07/2023,NO0779790144,1,Lesser Yellow Underwing,Noctua comes,14,woodland,3,Glen Dee Central,80,9,4,W,waxing_crescent,none,430
+24/07/2023,NO0864190070,2,Large Emerald,Geometra papilionaria,20,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,431
+24/07/2023,NO0864190070,1,Welsh Wave,Venusia cambrica,20,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,432
+24/07/2023,NO0864190070,6,True Lover's Knot,Lycophotia porphyrea,20,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,433
+24/07/2023,NO0864190070,2,Ingrailed Clay,Diarsia mendica,20,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,434
+24/07/2023,NO0864190070,1,Small Square-spot,Diarsia rubi,20,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,435
+24/07/2023,NO0864190070,1,July Highflyer,Hydriomena furcata,20,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,436
+24/07/2023,NO0864190070,1,Dark Pine Knot-horn,Dioryctria abietella,20,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,437
+24/07/2023,NO0864190070,2,Smoky Wainscot,Mythimna impura,20,regeneration,2,Glen Dee Central,80,9,4,W,waxing_crescent,none,438
+24/07/2023,NO0548286827,2,True Lover's Knot,Lycophotia porphyrea,44,moorland,1,Allt Cristie West,80,9,4,W,waxing_crescent,none,439
+24/07/2023,NO0548286827,1,Dotted Shade,Eana osseana,44,moorland,1,Allt Cristie West,80,9,4,W,waxing_crescent,none,440
+24/07/2023,NO0548286827,1,Straw Grass-veneer,Agriphila straminella,44,moorland,1,Allt Cristie West,80,9,4,W,waxing_crescent,none,441
+24/07/2023,NO0548286827,1,Ingrailed Clay,Diarsia mendica,44,moorland,1,Allt Cristie West,80,9,4,W,waxing_crescent,none,442
+24/07/2023,NO0542686828,1,Dark Arches,Apamea monoglypha,43,moorland,1,Allt Cristie West,80,9,4,W,waxing_crescent,none,443
+24/07/2023,NO0542686828,1,Pale Eggar,Trichiura crataegi,43,moorland,1,Allt Cristie West,80,9,4,W,waxing_crescent,none,444
+24/07/2023,NO0542686828,2,Ingrailed Clay,Diarsia mendica,43,moorland,1,Allt Cristie West,80,9,4,W,waxing_crescent,none,445
+24/07/2023,NO0554786825,2,True Lover's Knot,Lycophotia porphyrea,45,moorland,1,Allt Cristie West,80,9,4,W,waxing_crescent,none,446
+24/07/2023,NO0554786825,1,Ingrailed Clay,Diarsia mendica,45,moorland,1,Allt Cristie West,80,9,4,W,waxing_crescent,none,447
+24/07/2023,NO0554786825,1,Pale Eggar,Trichiura crataegi,45,moorland,1,Allt Cristie West,80,9,4,W,waxing_crescent,none,448
+25/07/2023,NO0444189194,1,Smoky Wainscot,Mythimna impura,39,moorland,1,Glen Dee West,100,9,1,WNW,waxing_crescent,light_showers,449
+25/07/2023,NO0444189194,4,True Lover's Knot,Lycophotia porphyrea,39,moorland,1,Glen Dee West,100,9,1,WNW,waxing_crescent,light_showers,450
+25/07/2023,NO0444189194,1,Ingrailed Clay,Diarsia mendica,39,moorland,1,Glen Dee West,100,9,1,WNW,waxing_crescent,light_showers,451
+25/07/2023,NO0498193010,1,Broom Moth,Ceramica pisi,7,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,452
+25/07/2023,NO0498193010,6,Ingrailed Clay,Diarsia mendica,7,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,453
+25/07/2023,NO0498193010,2,True Lover's Knot,Lycophotia porphyrea,7,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,454
+25/07/2023,NO0498193010,1,Pale Eggar,Trichiura crataegi,7,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,455
+25/07/2023,NO0498193010,1,Mottled Beauty,Alcis repandata,7,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,456
+25/07/2023,NO0498193010,1,July Belle,Scotopteryx luridata,7,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,457
+25/07/2023,NO0432189194,5,True Lover's Knot,Lycophotia porphyrea,37,moorland,1,Glen Dee West,100,9,1,WNW,waxing_crescent,light_showers,458
+25/07/2023,NO0432189194,1,Ingrailed Clay,Diarsia mendica,37,moorland,1,Glen Dee West,100,9,1,WNW,waxing_crescent,light_showers,459
+25/07/2023,NO0432189194,1,Grey Mountain Carpet,Entephria caesiata,37,moorland,1,Glen Dee West,100,9,1,WNW,waxing_crescent,light_showers,460
+25/07/2023,NO0432189194,1,Anomalous,Stilbia anomala,37,moorland,1,Glen Dee West,100,9,1,WNW,waxing_crescent,light_showers,461
+25/07/2023,NO0432189194,1,Six-striped Rustic,Xestia sexstrigata,37,moorland,1,Glen Dee West,100,9,1,WNW,waxing_crescent,light_showers,462
+25/07/2023,NO0396193850,2,True Lover's Knot,Lycophotia porphyrea,1,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,463
+25/07/2023,NO0396193850,8,Northern Spinach,Eulithis populata,1,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,464
+25/07/2023,NO0396193850,3,Ingrailed Clay,Diarsia mendica,1,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,465
+25/07/2023,NO0396193850,1,Foxglove Pug,Eupithecia pulchellata,1,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,466
+25/07/2023,NO0396193850,2,Mottled Beauty,Alcis repandata,1,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,467
+25/07/2023,NO0396193850,4,July Highflyer,Hydriomena furcata,1,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,468
+25/07/2023,NO0396193850,3,Barred Red,Hylaea fasciaria,1,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,469
+25/07/2023,NO0396193850,2,Grey Mountain Carpet,Entephria caesiata,1,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,470
+25/07/2023,NO0396193850,4,True Lover's Knot,Lycophotia porphyrea,1,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,471
+25/07/2023,NO0498192950,4,Ingrailed Clay,Diarsia mendica,8,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,472
+25/07/2023,NO0498192950,1,Pale Eggar,Trichiura crataegi,8,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,473
+25/07/2023,NO0402293788,4,Grey Mountain Carpet,Entephria caesiata,3,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,474
+25/07/2023,NO0402293788,3,Ingrailed Clay,Diarsia mendica,3,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,475
+25/07/2023,NO0402293788,9,True Lover's Knot,Lycophotia porphyrea,3,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,476
+25/07/2023,NO0402293788,3,Mottled Beauty,Alcis repandata,3,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,477
+25/07/2023,NO0402293788,1,Northern Spinach,Eulithis populata,3,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,478
+25/07/2023,NO0402293788,1,Pale Eggar,Trichiura crataegi,3,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,479
+25/07/2023,NO0504192950,2,Green Carpet,Colostygia pectinataria,9,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,480
+25/07/2023,NO0504192950,1,True Lover's Knot,Lycophotia porphyrea,9,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,481
+25/07/2023,NO0504192950,10,Ingrailed Clay,Diarsia mendica,9,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,482
+25/07/2023,NO0504192950,2,Mottled Beauty,Alcis repandata,9,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,483
+25/07/2023,NO0504192950,1,Pale Eggar,Trichiura crataegi,9,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,484
+25/07/2023,NO0504192950,1,Scarce Silver Y,Syngrapha interrogationis,9,regeneration,2,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,485
+25/07/2023,NO0438189194,2,True Lover's Knot,Lycophotia porphyrea,38,moorland,1,Glen Dee West,100,9,1,WNW,waxing_crescent,light_showers,486
+25/07/2023,NO0438189194,2,Dark Arches,Apamea monoglypha,38,moorland,1,Glen Dee West,100,9,1,WNW,waxing_crescent,light_showers,487
+25/07/2023,NO0396193790,5,Northern Spinach,Eulithis populata,2,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,488
+25/07/2023,NO0396193790,2,Grey Mountain Carpet,Entephria caesiata,2,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,489
+25/07/2023,NO0396193790,2,Wormwood Pug,Eupithecia absinthiata,2,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,490
+25/07/2023,NO0396193790,1,Pale Eggar,Trichiura crataegi,2,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,491
+25/07/2023,NO0396193790,1,Scarce Silver Y,Syngrapha interrogationis,2,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,492
+25/07/2023,NO0396193790,2,Ingrailed Clay,Diarsia mendica,2,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,493
+25/07/2023,NO0396193790,8,True Lover's Knot,Lycophotia porphyrea,2,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,494
+25/07/2023,NO0396193790,3,Mottled Beauty,Alcis repandata,2,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,495
+25/07/2023,NO0396193790,1,Dotted Clay,Xestia baja,2,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,496
+25/07/2023,NO0396193790,1,July Highflyer,Hydriomena furcata,2,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,497
+25/07/2023,NO0396193790,1,Lesser Yellow Underwing,Noctua comes,2,woodland,3,Glen Derry/Lui,100,9,1,WNW,waxing_crescent,light_showers,498
+26/07/2023,NO0720187070,1,Garden Tiger,Arctia caja,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,499
+26/07/2023,NO0720187070,17,True Lover's Knot,Lycophotia porphyrea,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,500
+26/07/2023,NO0720187070,2,Grey Pine Carpet,Thera obeliscata,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,501
+26/07/2023,NO0720187070,7,Dark Arches,Apamea monoglypha,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,502
+26/07/2023,NO0720187070,1,Green Carpet,Colostygia pectinataria,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,503
+26/07/2023,NO0720187070,2,Ingrailed Clay,Diarsia mendica,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,504
+26/07/2023,NO0720187070,1,Wormwood Pug,Eupithecia absinthiata,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,505
+26/07/2023,NO0720187070,1,Flame Carpet,Xanthorhoe designata,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,506
+26/07/2023,NO0720187070,1,Lesser Yellow Underwing,Noctua comes,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,507
+26/07/2023,NO0720187070,1,Common Lutestring,Ochropacha duplaris,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,508
+26/07/2023,NO0720187070,1,Holly Tortrix,Rhopobota naevana,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,509
+26/07/2023,NO0720187070,1,Dotted Shade,Eana osseana,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,510
+26/07/2023,NO0720187070,3,Square-spot Rustic,Xestia xanthographa,51,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,511
+26/07/2023,NO0714187070,1,Common Marbled Carpet,Dysstroma truncata,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,512
+26/07/2023,NO0714187070,1,Grey Pine Carpet,Thera obeliscata,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,513
+26/07/2023,NO0714187070,3,Scotch Annulet,Gnophos obfuscata,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,514
+26/07/2023,NO0714187070,11,True Lover's Knot,Lycophotia porphyrea,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,515
+26/07/2023,NO0714187070,1,Middle-barred Minor,Oligia fasciuncula,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,516
+26/07/2023,NO0714187070,1,Ingrailed Clay,Diarsia mendica,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,517
+26/07/2023,NO0714187070,10,Dark Arches,Apamea monoglypha,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,518
+26/07/2023,NO0714187070,1,Square-spot Rustic,Xestia xanthographa,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,519
+26/07/2023,NO0714187070,1,Cousin German,Protolampra sobrina,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,520
+26/07/2023,NO0714187070,1,Scalloped Oak,Crocallis elinguaria,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,521
+26/07/2023,NO0714187070,4,Lesser Yellow Underwing,Noctua comes,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,522
+26/07/2023,NO0714187070,2,Large Yellow Underwing,Noctua pronuba,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,523
+26/07/2023,NO0714187070,7,Dotted Shade,Eana osseana,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,524
+26/07/2023,NO0714187070,1,Dark Marbled Carpet,Dysstroma citrata,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,525
+26/07/2023,NO0714187070,5,Wormwood Pug,Eupithecia absinthiata,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,526
+26/07/2023,NO0714187070,1,Yellow Shell,Camptogramma bilineata,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,527
+26/07/2023,NO0714187070,1,Swallow Prominent,Pheosia tremula,50,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,528
+26/07/2023,NO0708187070,1,Large Yellow Underwing,Noctua pronuba,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,529
+26/07/2023,NO0708187070,2,Yellow Shell,Camptogramma bilineata,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,530
+26/07/2023,NO0708187070,1,Grey Pine Carpet,Thera obeliscata,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,531
+26/07/2023,NO0708187070,2,Narrow-winged Pug,Eupithecia nanata,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,532
+26/07/2023,NO0708187070,6,Scotch Annulet,Gnophos obfuscata,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,533
+26/07/2023,NO0708187070,1,Purple Clay,Diarsia brunnea,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,534
+26/07/2023,NO0708187070,2,Wormwood Pug,Eupithecia absinthiata,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,535
+26/07/2023,NO0708187070,12,True Lover's Knot,Lycophotia porphyrea,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,536
+26/07/2023,NO0708187070,31,Dark Arches,Apamea monoglypha,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,537
+26/07/2023,NO0708187070,3,Northern Spinach,Eulithis populata,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,538
+26/07/2023,NO0708187070,3,Dark Marbled Carpet,Dysstroma citrata,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,539
+26/07/2023,NO0708187070,1,Lesser Broad-bordered Yellow Underwing,Noctua janthe,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,540
+26/07/2023,NO0708187070,1,Broom Moth,Ceramica pisi,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,541
+26/07/2023,NO0708187070,1,Lesser Yellow Underwing,Noctua comes,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,542
+26/07/2023,NO0708187070,1,Brown Knot-horn,Matilella fusca,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,543
+26/07/2023,NO0708187070,2,Large Yellow Underwing,Noctua pronuba,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,544
+26/07/2023,NO0708187070,1,Mother of Pearl,Patania ruralis,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,545
+26/07/2023,NO0708187070,1,July Belle,Scotopteryx luridata,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,546
+26/07/2023,NO0708187070,1,Barred Red,Hylaea fasciaria,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,547
+26/07/2023,NO0708187070,1,Scalloped Oak,Crocallis elinguaria,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,548
+26/07/2023,NO0708187070,1,,Pug spp,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,549
+26/07/2023,NO0708187070,1,Square-spot Rustic,Xestia xanthographa,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,550
+26/07/2023,NO0708187070,1,Common Marbled Carpet,Dysstroma truncata,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,551
+26/07/2023,NO0708187070,1,Peppered Moth,Biston betularia,49,moorland,1,Allt Christie East,100,11,1,ENE,waxing_crescent,none,552
+26/07/2023,NO1019692008,7,Large Emerald,Geometra papilionaria,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,553
+26/07/2023,NO1019692008,9,Mottled Beauty,Alcis repandata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,554
+26/07/2023,NO1019692008,3,Barred Red,Hylaea fasciaria,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,555
+26/07/2023,NO1019692008,6,Holly Tortrix,Rhopobota naevana,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,556
+26/07/2023,NO1019692008,2,Large Ivy Tortrix,Lozotaenia forsterana,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,557
+26/07/2023,NO1019692008,1,Riband Wave,Idaea aversata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,558
+26/07/2023,NO1019692008,5,Common Marbled Carpet,Dysstroma truncata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,559
+26/07/2023,NO1019692008,1,Common White Wave,Cabera pusaria,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,560
+26/07/2023,NO1019692008,8,Grey Pine Carpet,Thera obeliscata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,561
+26/07/2023,NO1019692008,1,Iron Prominent,Notodonta dromedarius,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,562
+26/07/2023,NO1019692008,1,Maritime Bell,Eucosma lacteana,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,563
+26/07/2023,NO1019692008,1,Peppered Moth,Biston betularia,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,564
+26/07/2023,NO1019692008,1,Light Emerald,Campaea margaritaria,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,565
+26/07/2023,NO1019692008,3,Grey Mountain Carpet,Entephria caesiata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,566
+26/07/2023,NO1019692008,4,Dark Arches,Apamea monoglypha,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,567
+26/07/2023,NO1019692008,8,True Lover's Knot,Lycophotia porphyrea,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,568
+26/07/2023,NO1019692008,2,Swallow Prominent,Pheosia tremula,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,569
+26/07/2023,NO1019692008,1,Coxcomb Prominent,Ptilodon capucina,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,570
+26/07/2023,NO1019692008,11,Ingrailed Clay,Diarsia mendica,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,571
+26/07/2023,NO1019692008,4,Northern Spinach,Eulithis populata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,572
+26/07/2023,NO1019692008,1,Brown China-mark,Elophila nymphaeata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,573
+26/07/2023,NO1019692008,6,July Highflyer,Hydriomena furcata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,574
+26/07/2023,NO1019692008,9,Lesser Swallow Prominent,Pheosia gnoma,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,575
+26/07/2023,NO1019692008,3,Pale Eggar,Trichiura crataegi,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,576
+26/07/2023,NO1019692008,2,Green Carpet,Colostygia pectinataria,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,577
+26/07/2023,NO1019692008,1,Smoky Wainscot,Mythimna impura,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,578
+26/07/2023,NO1019692008,1,Foxglove Pug,Eupithecia pulchellata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,579
+26/07/2023,NO1019692008,2,Golden Argent,Argyresthia goedartella,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,580
+26/07/2023,NO1019692008,1,Spruce Carpet,Thera britannica,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,581
+26/07/2023,NO1019692008,1,Flame Carpet,Xanthorhoe designata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,582
+26/07/2023,NO1019692008,1,Middle-barred Minor,Oligia fasciuncula,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,583
+26/07/2023,NO1019692008,1,Dotted Clay,Xestia baja,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,584
+26/07/2023,NO1019692008,1,Common Carpet,Epirrhoe alternata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,585
+26/07/2023,NO1019692008,1,Bordered White,Bupalus piniaria,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,586
+26/07/2023,NO1019692008,1,Wormwood Pug,Eupithecia absinthiata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,587
+26/07/2023,NO1008191990,13,Mottled Beauty,Alcis repandata,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,588
+26/07/2023,NO1008191990,4,Grey Mountain Carpet,Entephria caesiata,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,589
+26/07/2023,NO1008191990,5,True Lover's Knot,Lycophotia porphyrea,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,590
+26/07/2023,NO1008191990,27,July Highflyer,Hydriomena furcata,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,591
+26/07/2023,NO1008191990,6,Northern Spinach,Eulithis populata,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,592
+26/07/2023,NO1008191990,3,Grey Pine Carpet,Thera obeliscata,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,593
+26/07/2023,NO1008191990,2,Common Lutestring,Ochropacha duplaris,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,594
+26/07/2023,NO1008191990,6,Common Marbled Carpet,Dysstroma truncata,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,595
+26/07/2023,NO1008191990,4,Green Carpet,Colostygia pectinataria,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,596
+26/07/2023,NO1008191990,1,Bird-cherry Ermine,Yponomeuta evonymella,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,597
+26/07/2023,NO1008191990,2,Coxcomb Prominent,Ptilodon capucina,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,598
+26/07/2023,NO1008191990,1,Riband Wave,Idaea aversata,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,599
+26/07/2023,NO1008191990,1,Scotch Grass-veneer,Catoptria permutatellus,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,600
+26/07/2023,NO1008191990,1,Pale Eggar,Trichiura crataegi,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,601
+26/07/2023,NO1008191990,11,Ingrailed Clay,Diarsia mendica,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,602
+26/07/2023,NO1008191990,2,Maritime Bell,Eucosma lacteana,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,603
+26/07/2023,NO1008191990,4,Dark Arches,Apamea monoglypha,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,604
+26/07/2023,NO1008191990,2,Barred Straw,Gandaritis pyraliata,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,605
+26/07/2023,NO1008191990,1,,Pug spp,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,606
+26/07/2023,NO1008191990,1,Wormwood Pug,Eupithecia absinthiata,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,607
+26/07/2023,NO1008191990,2,Lesser Swallow Prominent,Pheosia gnoma,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,608
+26/07/2023,NO1008191990,1,Bordered White,Bupalus piniaria,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,609
+26/07/2023,NO1008191990,1,Cousin German,Protolampra sobrina,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,610
+26/07/2023,NO1008191990,2,Purple Clay,Diarsia brunnea,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,611
+26/07/2023,NO1008191990,6,Barred Red,Hylaea fasciaria,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,612
+26/07/2023,NO1008191990,2,Scalloped Oak,Crocallis elinguaria,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,613
+26/07/2023,NO1008191990,1,Swallow Prominent,Pheosia tremula,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,614
+26/07/2023,NO1008191990,1,Bee Moth,Aphomia sociella,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,615
+26/07/2023,NO1008191990,1,Tawny-barred Angle,Macaria liturata,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,616
+26/07/2023,NO1008191990,1,Dark Pine Knot-horn,Dioryctria abietella,25,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,617
+26/07/2023,NO1152191510,4,Grey Pine Carpet,Thera obeliscata,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,618
+26/07/2023,NO1152191510,1,Straw Grass-veneer,Agriphila straminella,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,619
+26/07/2023,NO1152191510,1,,Pug spp,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,620
+26/07/2023,NO1152191510,1,Smoky Wainscot,Mythimna impura,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,621
+26/07/2023,NO1152191510,4,True Lover's Knot,Lycophotia porphyrea,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,622
+26/07/2023,NO1152191510,7,Ingrailed Clay,Diarsia mendica,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,623
+26/07/2023,NO1152191510,2,July Belle,Scotopteryx luridata,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,624
+26/07/2023,NO1152191510,2,Green Carpet,Colostygia pectinataria,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,625
+26/07/2023,NO1152191510,2,Scotch Annulet,Gnophos obfuscata,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,626
+26/07/2023,NO1152191510,1,Treble-bar,Aplocera plagiata,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,627
+26/07/2023,NO1152191510,1,Wormwood Pug,Eupithecia absinthiata,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,628
+26/07/2023,NO1152191510,4,Dark Arches,Apamea monoglypha,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,629
+26/07/2023,NO1152191510,2,Scarce Silver Y,Syngrapha interrogationis,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,630
+26/07/2023,NO1152191510,1,Chestnut-coloured Carpet,Thera cognata,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,631
+26/07/2023,NO1152191510,1,Plain Clay,Eugnorisma depuncta,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,632
+26/07/2023,NO1152191510,1,Barred Red,Hylaea fasciaria,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,633
+26/07/2023,NO1152191510,1,Bee Moth,Aphomia sociella,32,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,634
+26/07/2023,NO1146191510,2,Mottled Beauty,Alcis repandata,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,635
+26/07/2023,NO1146191510,5,Grey Pine Carpet,Thera obeliscata,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,636
+26/07/2023,NO1146191510,6,Dark Arches,Apamea monoglypha,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,637
+26/07/2023,NO1146191510,1,Bird-cherry Ermine,Yponomeuta evonymella,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,638
+26/07/2023,NO1146191510,3,Green Carpet,Colostygia pectinataria,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,639
+26/07/2023,NO1146191510,1,Bee Moth,Aphomia sociella,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,640
+26/07/2023,NO1146191510,1,Ingrailed Clay,Diarsia mendica,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,641
+26/07/2023,NO1146191510,7,True Lover's Knot,Lycophotia porphyrea,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,642
+26/07/2023,NO1146191510,2,Scotch Annulet,Gnophos obfuscata,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,643
+26/07/2023,NO1146191510,2,Dark Pine Knot-horn,Dioryctria abietella,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,644
+26/07/2023,NO1146191510,1,Barred Straw,Gandaritis pyraliata,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,645
+26/07/2023,NO1146191510,1,,Pug spp,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,646
+26/07/2023,NO1146191510,2,Smoky Wainscot,Mythimna impura,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,647
+26/07/2023,NO1146191510,1,Plain Clay,Eugnorisma depuncta,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,648
+26/07/2023,NO1146191510,2,Wormwood Pug,Eupithecia absinthiata,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,649
+26/07/2023,NO1146191510,2,Common Grass-veneer,Agriphila tristella,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,650
+26/07/2023,NO1146191510,1,Straw Grass-veneer,Agriphila straminella,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,651
+26/07/2023,NO1146191510,1,Chestnut-coloured Carpet,Thera cognata,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,652
+26/07/2023,NO1146191510,1,Purple Bar,Cosmorhoe ocellata,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,653
+26/07/2023,NO1146191510,2,Riband Wave,Idaea aversata,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,654
+26/07/2023,NO1146191510,1,Lesser Swallow Prominent,Pheosia gnoma,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,655
+26/07/2023,NO1146191510,1,Foxglove Pug,Eupithecia pulchellata,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,656
+26/07/2023,NO1146191510,2,Brown Knot-horn,Matilella fusca,31,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,657
+26/07/2023,NO1159391550,1,Dark Pine Knot-horn,Dioryctria abietella,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,658
+26/07/2023,NO1159391550,1,Gold Spangle,Autographa bractea,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,659
+26/07/2023,NO1159391550,2,Narrow-winged Pug,Eupithecia nanata,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,660
+26/07/2023,NO1159391550,2,Scarce Silver Y,Syngrapha interrogationis,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,661
+26/07/2023,NO1159391550,1,Large Yellow Underwing,Noctua pronuba,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,662
+26/07/2023,NO1159391550,8,True Lover's Knot,Lycophotia porphyrea,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,663
+26/07/2023,NO1159391550,1,Purple Clay,Diarsia brunnea,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,664
+26/07/2023,NO1159391550,2,Mottled Beauty,Alcis repandata,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,665
+26/07/2023,NO1159391550,2,Common Marbled Carpet,Dysstroma truncata,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,666
+26/07/2023,NO1159391550,6,Dark Arches,Apamea monoglypha,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,667
+26/07/2023,NO1159391550,1,Lempke's Gold Spot,Plusia putnami,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,668
+26/07/2023,NO1159391550,2,Chestnut-coloured Carpet,Thera cognata,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,669
+26/07/2023,NO1159391550,1,Garden Tiger,Arctia caja,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,670
+26/07/2023,NO1159391550,1,Bee Moth,Aphomia sociella,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,671
+26/07/2023,NO1159391550,1,July Highflyer,Hydriomena furcata,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,672
+26/07/2023,NO1159391550,1,Scotch Grass-veneer,Catoptria permutatellus,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,673
+26/07/2023,NO1159391550,1,Pale Eggar,Trichiura crataegi,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,674
+26/07/2023,NO1159391550,1,Common Rustic agg.,Mesapamea secalis agg.,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,675
+26/07/2023,NO1159391550,9,Ingrailed Clay,Diarsia mendica,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,676
+26/07/2023,NO1159391550,3,Lesser Yellow Underwing,Noctua comes,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,677
+26/07/2023,NO1159391550,1,Dusky Brocade,Apamea remissa,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,678
+26/07/2023,NO1159391550,1,July Belle,Scotopteryx luridata,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,679
+26/07/2023,NO1159391550,1,Scotch Annulet,Gnophos obfuscata,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,680
+26/07/2023,NO1159391550,1,Barred Red,Hylaea fasciaria,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,681
+26/07/2023,NO1159391550,2,Bird-cherry Ermine,Yponomeuta evonymella,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,682
+26/07/2023,NO1159391550,1,Green Carpet,Colostygia pectinataria,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,683
+26/07/2023,NO1159391550,1,Holly Tortrix,Rhopobota naevana,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,684
+26/07/2023,NO1159391550,1,Grey Pine Carpet,Thera obeliscata,33,regeneration,2,Glen Quoich,100,11,1,ENE,waxing_crescent,none,685
+26/07/2023,NO1027791977,4,Large Emerald,Geometra papilionaria,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,686
+26/07/2023,NO1027791977,5,Grey Mountain Carpet,Entephria caesiata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,687
+26/07/2023,NO1027791977,5,Mottled Beauty,Alcis repandata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,688
+26/07/2023,NO1027791977,16,Ingrailed Clay,Diarsia mendica,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,689
+26/07/2023,NO1027791977,3,Grey Pine Carpet,Thera obeliscata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,690
+26/07/2023,NO1027791977,3,Wormwood Pug,Eupithecia absinthiata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,691
+26/07/2023,NO1027791977,3,Green Carpet,Colostygia pectinataria,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,692
+26/07/2023,NO1027791977,2,Common Marbled Carpet,Dysstroma truncata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,693
+26/07/2023,NO1027791977,1,Dotted Clay,Xestia baja,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,694
+26/07/2023,NO1027791977,3,Holly Tortrix,Rhopobota naevana,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,695
+26/07/2023,NO1027791977,4,Lesser Swallow Prominent,Pheosia gnoma,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,696
+26/07/2023,NO1027791977,1,Pearl-band Grass Veneer,Catoptria margaritella,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,697
+26/07/2023,NO1027791977,2,Scalloped Oak,Crocallis elinguaria,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,698
+26/07/2023,NO1027791977,1,Purple Clay,Diarsia brunnea,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,699
+26/07/2023,NO1027791977,1,Cousin German,Protolampra sobrina,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,700
+26/07/2023,NO1027791977,3,Pale Eggar,Trichiura crataegi,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,701
+26/07/2023,NO1027791977,1,Dark Marbled Carpet,Dysstroma citrata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,702
+26/07/2023,NO1027791977,1,Bird-cherry Ermine,Yponomeuta evonymella,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,703
+26/07/2023,NO1027791977,1,Smoky Wainscot,Mythimna impura,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,704
+26/07/2023,NO1027791977,1,Foxglove Pug,Eupithecia pulchellata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,705
+26/07/2023,NO1027791977,2,Dark Arches,Apamea monoglypha,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,706
+26/07/2023,NO1027791977,1,Gothic,Naenia typica,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,707
+26/07/2023,NO1027791977,6,July Highflyer,Hydriomena furcata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,708
+26/07/2023,NO1027791977,4,True Lover's Knot,Lycophotia porphyrea,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,709
+26/07/2023,NO1027791977,1,Common Carpet,Epirrhoe alternata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,710
+26/07/2023,NO1027791977,1,Brimstone Moth,Opisthograptis luteolata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,711
+26/07/2023,NO1027791977,1,Silver-ground Carpet,Xanthorhoe montanata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,712
+26/07/2023,NO1027791977,1,Lesser Yellow Underwing,Noctua comes,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,713
+26/07/2023,NO1027791977,3,Golden Argent,Argyresthia goedartella,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,714
+26/07/2023,NO1027791977,1,Gold Spangle,Autographa bractea,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,715
+26/07/2023,NO1027791977,1,Narrow-winged Pug,Eupithecia nanata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,716
+26/07/2023,NO1027791977,3,Dark Pine Knot-horn,Dioryctria abietella,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,717
+26/07/2023,NO1027791977,1,Riband Wave,Idaea aversata,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,718
+26/07/2023,NO1027791977,1,Coxcomb Prominent,Ptilodon capucina,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,719
+26/07/2023,NO1027791977,1,Barred Red,Hylaea fasciaria,27,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,720
+26/07/2023,NO1019692008,1,Smoky Wave,Scopula ternata,26,woodland,3,Glen Quoich,100,11,1,ENE,waxing_crescent,none,721
+31/07/2023,NO0780190070,6,Barred Red,Hylaea fasciaria,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,722
+31/07/2023,NO0780190070,5,Holly Tortrix,Rhopobota naevana,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,723
+31/07/2023,NO0780190070,,,Scoparia spp,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,724
+31/07/2023,NO0780190070,1,Common Marbled Carpet,Dysstroma truncata,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,725
+31/07/2023,NO0780190070,2,Green Carpet,Colostygia pectinataria,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,726
+31/07/2023,NO0780190070,5,Northern Spinach,Eulithis populata,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,727
+31/07/2023,NO0780190070,5,July Highflyer,Hydriomena furcata,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,728
+31/07/2023,NO0780190070,11,Ingrailed Clay,Diarsia mendica,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,729
+31/07/2023,NO0780190070,7,True Lover's Knot,Lycophotia porphyrea,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,730
+31/07/2023,NO0780190070,,,Cnephasia spp,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,731
+31/07/2023,NO0780190070,1,Mottled Beauty,Alcis repandata,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,732
+31/07/2023,NO0780190070,1,Common Lutestring,Ochropacha duplaris,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,733
+31/07/2023,NO0780190070,1,Barred Straw,Gandaritis pyraliata,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,734
+31/07/2023,NO0780190070,1,Riband Wave,Idaea aversata,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,735
+31/07/2023,NO0780190070,1,Lesser Swallow Prominent,Pheosia gnoma,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,736
+31/07/2023,NO0780190070,1,Maritime Bell,Eucosma lacteana,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,737
+31/07/2023,NO0780190070,1,Cousin German,Protolampra sobrina,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,738
+31/07/2023,NO0780190070,1,Pearl-band Grass Veneer,Catoptria margaritella,16,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,739
+31/07/2023,NO0786190070,7,Holly Tortrix,Rhopobota naevana,17,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,740
+31/07/2023,NO0786190070,1,Maritime Bell,Eucosma lacteana,17,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,741
+31/07/2023,NO0786190070,2,Grey Mountain Carpet,Entephria caesiata,17,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,742
+31/07/2023,NO0786190070,4,July Highflyer,Hydriomena furcata,17,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,743
+31/07/2023,NO0786190070,5,Green Carpet,Colostygia pectinataria,17,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,744
+31/07/2023,NO0786190070,1,Northern Spinach,Eulithis populata,17,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,745
+31/07/2023,NO0786190070,9,Ingrailed Clay,Diarsia mendica,17,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,746
+31/07/2023,NO0786190070,1,Barred Red,Hylaea fasciaria,17,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,747
+31/07/2023,NO0786190070,3,True Lover's Knot,Lycophotia porphyrea,17,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,748
+31/07/2023,NO0786190070,2,,Scoparia spp,17,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,749
+31/07/2023,NO0792190070,8,Northern Spinach,Eulithis populata,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,750
+31/07/2023,NO0792190070,1,Large Emerald,Geometra papilionaria,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,751
+31/07/2023,NO0792190070,1,Grey Mountain Carpet,Entephria caesiata,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,752
+31/07/2023,NO0792190070,4,July Highflyer,Hydriomena furcata,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,753
+31/07/2023,NO0792190070,11,Ingrailed Clay,Diarsia mendica,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,754
+31/07/2023,NO0792190070,5,Holly Tortrix,Rhopobota naevana,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,755
+31/07/2023,NO0792190070,1,Welsh Wave,Venusia cambrica,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,756
+31/07/2023,NO0792190070,1,Barred Red,Hylaea fasciaria,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,757
+31/07/2023,NO0792190070,1,True Lover's Knot,Lycophotia porphyrea,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,758
+31/07/2023,NO0792190070,1,Maritime Bell,Eucosma lacteana,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,759
+31/07/2023,NO0792190070,5,,Scoparia spp,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,760
+31/07/2023,NO0792190070,1,Coxcomb Prominent,Ptilodon capucina,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,761
+31/07/2023,NO0792190070,1,Common Marbled Carpet,Dysstroma truncata,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,762
+31/07/2023,NO0792190070,1,Rush Marble,Bactra lancealana,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,763
+31/07/2023,NO0792190070,3,Smoky Wainscot,Mythimna impura,18,woodland,3,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,764
+31/07/2023,NO0876190070,2,Common Grass-veneer,Agriphila tristella,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,765
+31/07/2023,NO0876190070,1,Wormwood Pug,Eupithecia absinthiata,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,766
+31/07/2023,NO0876190070,7,Ingrailed Clay,Diarsia mendica,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,767
+31/07/2023,NO0876190070,2,Smoky Wainscot,Mythimna impura,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,768
+31/07/2023,NO0876190070,5,True Lover's Knot,Lycophotia porphyrea,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,769
+31/07/2023,NO0876190070,1,Maritime Bell,Eucosma lacteana,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,770
+31/07/2023,NO0876190070,2,July Highflyer,Hydriomena furcata,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,771
+31/07/2023,NO0876190070,2,Grey Pine Carpet,Thera obeliscata,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,772
+31/07/2023,NO0876190070,1,Welsh Wave,Venusia cambrica,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,773
+31/07/2023,NO0876190070,3,Dotted Clay,Xestia baja,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,774
+31/07/2023,NO0876190070,1,Brown Plume,Stenoptilia pterodactyla,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,775
+31/07/2023,NO0876190070,1,Green Carpet,Colostygia pectinataria,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,776
+31/07/2023,NO0876190070,1,Common Marbled Carpet,Dysstroma truncata,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,777
+31/07/2023,NO0876190070,1,Holly Tortrix,Rhopobota naevana,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,778
+31/07/2023,NO0876190070,1,Burnished Brass,Diachrysia chrysitis,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,779
+31/07/2023,NO0876190070,1,Mottled Beauty,Alcis repandata,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,780
+31/07/2023,NO0876190070,1,Brimstone Moth,Opisthograptis luteolata,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,781
+31/07/2023,NO0876190070,2,Riband Wave,Idaea aversata,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,782
+31/07/2023,NO0876190070,1,,Moth spp,22,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,783
+31/07/2023,NO0883190069,5,Grey Pine Carpet,Thera obeliscata,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,784
+31/07/2023,NO0883190069,6,Barred Red,Hylaea fasciaria,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,785
+31/07/2023,NO0883190069,7,July Highflyer,Hydriomena furcata,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,786
+31/07/2023,NO0883190069,4,,Scoparia spp,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,787
+31/07/2023,NO0883190069,1,Foxglove Pug,Eupithecia pulchellata,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,788
+31/07/2023,NO0883190069,2,Dark Pine Knot-horn,Dioryctria abietella,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,789
+31/07/2023,NO0883190069,2,Dotted Clay,Xestia baja,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,790
+31/07/2023,NO0883190069,5,True Lover's Knot,Lycophotia porphyrea,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,791
+31/07/2023,NO0883190069,1,Large Yellow Underwing,Noctua pronuba,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,792
+31/07/2023,NO0883190069,1,Lesser Broad-bordered Yellow Underwing,Noctua janthe,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,793
+31/07/2023,NO0883190069,1,Purple Bar,Cosmorhoe ocellata,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,794
+31/07/2023,NO0883190069,1,Large Emerald,Geometra papilionaria,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,795
+31/07/2023,NO0883190069,1,Smoky Wave,Scopula ternata,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,796
+31/07/2023,NO0883190069,3,Ingrailed Clay,Diarsia mendica,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,797
+31/07/2023,NO0883190069,1,Square-spot Rustic,Xestia xanthographa,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,798
+31/07/2023,NO0883190069,1,Welsh Wave,Venusia cambrica,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,799
+31/07/2023,NO0883190069,1,Dark Arches,Apamea monoglypha,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,800
+31/07/2023,NO0883190069,1,Riband Wave,Idaea aversata,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,801
+31/07/2023,NO0883190069,1,Brown Knot-horn,Matilella fusca,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,802
+31/07/2023,NO0883190069,1,Wood-sage Plume,Capperia britanniodactylus,23,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,803
+31/07/2023,NO0890590077,1,Welsh Wave,Venusia cambrica,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,804
+31/07/2023,NO0890590077,2,Maritime Bell,Eucosma lacteana,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,805
+31/07/2023,NO0890590077,1,Spruce Carpet,Thera britannica,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,806
+31/07/2023,NO0890590077,2,Northern Spinach,Eulithis populata,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,807
+31/07/2023,NO0890590077,1,Smoky Wave,Scopula ternata,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,808
+31/07/2023,NO0890590077,6,July Highflyer,Hydriomena furcata,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,809
+31/07/2023,NO0890590077,2,Lesser Swallow Prominent,Pheosia gnoma,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,810
+31/07/2023,NO0890590077,9,Ingrailed Clay,Diarsia mendica,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,811
+31/07/2023,NO0890590077,1,Minor Shoulder-knot,Brachylomia viminalis,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,812
+31/07/2023,NO0890590077,3,Grey Pine Carpet,Thera obeliscata,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,813
+31/07/2023,NO0890590077,4,True Lover's Knot,Lycophotia porphyrea,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,814
+31/07/2023,NO0890590077,1,Cousin German,Protolampra sobrina,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,815
+31/07/2023,NO0890590077,2,Holly Tortrix,Rhopobota naevana,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,816
+31/07/2023,NO0890590077,2,Green Carpet,Colostygia pectinataria,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,817
+31/07/2023,NO0890590077,2,Lesser Yellow Underwing,Noctua comes,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,818
+31/07/2023,NO0890590077,1,Dotted Clay,Xestia baja,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,819
+31/07/2023,NO0890590077,1,Scotch Grass-veneer,Catoptria permutatellus,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,820
+31/07/2023,NO0890590077,3,Riband Wave,Idaea aversata,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,821
+31/07/2023,NO0890590077,1,Grey Mountain Carpet,Entephria caesiata,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,822
+31/07/2023,NO0890590077,1,Barred Red,Hylaea fasciaria,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,823
+31/07/2023,NO0890590077,4,,Scoparia spp,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,824
+31/07/2023,NO0890590077,1,Wood-sage Plume,Capperia britanniodactylus,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,825
+31/07/2023,NO0890590077,3,,Moth spp,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,826
+31/07/2023,NO0890590077,1,Lesser Broad-bordered Yellow Underwing,Noctua janthe,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,827
+31/07/2023,NO0890590077,1,Coxcomb Prominent,Ptilodon capucina,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,828
+31/07/2023,NO0890590077,1,Dotted Shade,Eana osseana,24,regeneration,2,Glen Dee Central,100,12,5,NE,waxing_gibbous,heavy_showers,829
+31/07/2023,NO0542586763,12,Grey Mountain Carpet,Entephria caesiata,46,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,830
+31/07/2023,NO0542586763,4,True Lover's Knot,Lycophotia porphyrea,46,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,831
+31/07/2023,NO0542586763,8,Dark Arches,Apamea monoglypha,46,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,832
+31/07/2023,NO0542586763,1,Common Marbled Carpet,Dysstroma truncata,46,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,833
+31/07/2023,NO0542586763,2,Ingrailed Clay,Diarsia mendica,46,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,834
+31/07/2023,NO0542586763,2,Dark Marbled Carpet,Dysstroma citrata,46,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,835
+31/07/2023,NO0542586763,1,Holly Tortrix,Rhopobota naevana,46,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,836
+31/07/2023,NO0542586763,1,Garden Tiger,Arctia caja,46,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,837
+31/07/2023,NO0542586763,1,Scalloped Oak,Crocallis elinguaria,46,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,838
+31/07/2023,NO0548286761,2,Dark Arches,Apamea monoglypha,47,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,839
+31/07/2023,NO0548286761,2,Ingrailed Clay,Diarsia mendica,47,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,840
+31/07/2023,NO0548286761,2,Grey Mountain Carpet,Entephria caesiata,47,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,841
+31/07/2023,NO0548286761,1,Northern Spinach,Eulithis populata,47,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,842
+31/07/2023,NO0548286761,2,True Lover's Knot,Lycophotia porphyrea,47,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,843
+31/07/2023,NO0554886760,1,Dark Marbled Carpet,Dysstroma citrata,48,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,844
+31/07/2023,NO0554886760,4,Dark Arches,Apamea monoglypha,48,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,845
+31/07/2023,NO0554886760,1,Garden Tiger,Arctia caja,48,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,846
+31/07/2023,NO0554886760,3,Ingrailed Clay,Diarsia mendica,48,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,847
+31/07/2023,NO0554886760,1,Pale Eggar,Trichiura crataegi,48,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,848
+31/07/2023,NO0554886760,1,Narrow-winged Pug,Eupithecia nanata,48,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,849
+31/07/2023,NO0554886760,2,True Lover's Knot,Lycophotia porphyrea,48,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,850
+31/07/2023,NO0554886760,2,July Highflyer,Hydriomena furcata,48,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,851
+31/07/2023,NO0554886760,1,Common Marbled Carpet,Dysstroma truncata,48,moorland,1,Allt Cristie West,100,12,5,NE,waxing_gibbous,heavy_showers,852
+01/08/2023,NO0396193730,8,True Lover's Knot,Lycophotia porphyrea,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,853
+01/08/2023,NO0396193730,30,Holly Tortrix,Rhopobota naevana,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,854
+01/08/2023,NO0396193730,1,Grey Mountain Carpet,Entephria caesiata,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,855
+01/08/2023,NO0396193730,1,Wormwood Pug,Eupithecia absinthiata,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,856
+01/08/2023,NO0396193730,9,Northern Spinach,Eulithis populata,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,857
+01/08/2023,NO0396193730,2,Ingrailed Clay,Diarsia mendica,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,858
+01/08/2023,NO0396193730,2,Green Carpet,Colostygia pectinataria,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,859
+01/08/2023,NO0396193730,1,Woodland Marble,Orthotaenia undulana,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,860
+01/08/2023,NO0396193730,1,Smoky Wainscot,Mythimna impura,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,861
+01/08/2023,NO0396193730,1,Large Ivy Tortrix,Lozotaenia forsterana,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,862
+01/08/2023,NO0396193730,1,Purple Clay,Diarsia brunnea,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,863
+01/08/2023,NO0396193730,1,Chestnut-coloured Carpet,Thera cognata,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,864
+01/08/2023,NO0396193730,2,July Highflyer,Hydriomena furcata,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,865
+01/08/2023,NO0396193730,1,Dotted Shade,Eana osseana,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,866
+01/08/2023,NO0396193730,1,July Belle,Scotopteryx luridata,5,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,867
+01/08/2023,NO0408193790,4,Green Carpet,Colostygia pectinataria,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,868
+01/08/2023,NO0408193790,5,Grey Mountain Carpet,Entephria caesiata,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,869
+01/08/2023,NO0408193790,3,Pearl-band Grass Veneer,Catoptria margaritella,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,870
+01/08/2023,NO0408193790,5,Holly Tortrix,Rhopobota naevana,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,871
+01/08/2023,NO0408193790,1,Antler Moth,Cerapteryx graminis,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,872
+01/08/2023,NO0408193790,11,True Lover's Knot,Lycophotia porphyrea,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,873
+01/08/2023,NO0408193790,1,Barred Straw,Gandaritis pyraliata,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,874
+01/08/2023,NO0408193790,2,Grey Pine Carpet,Thera obeliscata,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,875
+01/08/2023,NO0408193790,4,Mottled Beauty,Alcis repandata,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,876
+01/08/2023,NO0408193790,3,Barred Red,Hylaea fasciaria,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,877
+01/08/2023,NO0408193790,6,Northern Spinach,Eulithis populata,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,878
+01/08/2023,NO0408193790,3,Ingrailed Clay,Diarsia mendica,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,879
+01/08/2023,NO0408193790,1,Pebble Prominent,Notodonta ziczac,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,880
+01/08/2023,NO0408193790,,,Pug spp,4,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,881
+01/08/2023,NO0402193730,2,Holly Tortrix,Rhopobota naevana,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,882
+01/08/2023,NO0402193730,5,True Lover's Knot,Lycophotia porphyrea,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,883
+01/08/2023,NO0402193730,1,Northern Spinach,Eulithis populata,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,884
+01/08/2023,NO0402193730,4,Ingrailed Clay,Diarsia mendica,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,885
+01/08/2023,NO0402193730,1,Grey Mountain Carpet,Entephria caesiata,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,886
+01/08/2023,NO0402193730,1,Mottled Beauty,Alcis repandata,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,887
+01/08/2023,NO0402193730,1,Wormwood Pug,Eupithecia absinthiata,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,888
+01/08/2023,NO0402193730,1,Maritime Bell,Eucosma lacteana,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,889
+01/08/2023,NO0402193730,1,Grey Pine Carpet,Thera obeliscata,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,890
+01/08/2023,NO0402193730,1,Green Carpet,Colostygia pectinataria,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,891
+01/08/2023,NO0402193730,1,Juniper Pug,Eupithecia pusillata,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,892
+01/08/2023,NO0402193730,1,Pearl-band Grass Veneer,Catoptria margaritella,6,woodland,3,Glen Derry/Lui,100,11,2,ENE,full_moon,none,893
+01/08/2023,NO0444189134,3,Dark Arches,Apamea monoglypha,42,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,894
+01/08/2023,NO0444189134,6,Ingrailed Clay,Diarsia mendica,42,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,895
+01/08/2023,NO0444189134,2,Dotted Shade,Eana osseana,42,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,896
+01/08/2023,NO0444189134,2,Lesser Yellow Underwing,Noctua comes,42,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,897
+01/08/2023,NO0444189134,2,True Lover's Knot,Lycophotia porphyrea,42,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,898
+01/08/2023,NO0444189134,2,July Highflyer,Hydriomena furcata,42,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,899
+01/08/2023,NO0444189134,1,Large Yellow Underwing,Noctua pronuba,42,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,900
+01/08/2023,NO0444189134,1,Light Knot Grass,Acronicta menyanthidis,42,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,901
+01/08/2023,NO0444189134,2,Wormwood Pug,Eupithecia absinthiata,42,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,902
+01/08/2023,NO0444189134,1,Northern Spinach,Eulithis populata,42,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,903
+01/08/2023,NO0444189134,1,Square-spot Rustic,Xestia xanthographa,42,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,904
+01/08/2023,NO0432189134,9,True Lover's Knot,Lycophotia porphyrea,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,905
+01/08/2023,NO0432189134,9,Northern Spinach,Eulithis populata,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,906
+01/08/2023,NO0432189134,10,July Highflyer,Hydriomena furcata,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,907
+01/08/2023,NO0432189134,2,Dark Marbled Carpet,Dysstroma citrata,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,908
+01/08/2023,NO0432189134,1,Smoky Wainscot,Mythimna impura,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,909
+01/08/2023,NO0432189134,9,Ingrailed Clay,Diarsia mendica,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,910
+01/08/2023,NO0432189134,1,Neglected Rustic,Xestia castanea,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,911
+01/08/2023,NO0432189134,1,Scalloped Oak,Crocallis elinguaria,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,912
+01/08/2023,NO0432189134,3,Wormwood Pug,Eupithecia absinthiata,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,913
+01/08/2023,NO0432189134,2,Dotted Shade,Eana osseana,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,914
+01/08/2023,NO0432189134,1,Square-spot Rustic,Xestia xanthographa,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,915
+01/08/2023,NO0432189134,1,Antler Moth,Cerapteryx graminis,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,916
+01/08/2023,NO0432189134,,,Moth spp,40,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,917
+01/08/2023,NO0493192909,1,July Belle,Scotopteryx luridata,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,918
+01/08/2023,NO0493192909,12,Grey Pine Carpet,Thera obeliscata,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,919
+01/08/2023,NO0493192909,2,Grey Mountain Carpet,Entephria caesiata,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,920
+01/08/2023,NO0493192909,2,Mottled Beauty,Alcis repandata,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,921
+01/08/2023,NO0493192909,5,Dark Arches,Apamea monoglypha,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,922
+01/08/2023,NO0493192909,1,Wormwood Pug,Eupithecia absinthiata,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,923
+01/08/2023,NO0493192909,3,True Lover's Knot,Lycophotia porphyrea,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,924
+01/08/2023,NO0493192909,3,Ingrailed Clay,Diarsia mendica,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,925
+01/08/2023,NO0493192909,2,Green Carpet,Colostygia pectinataria,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,926
+01/08/2023,NO0493192909,1,Holly Tortrix,Rhopobota naevana,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,927
+01/08/2023,NO0493192909,1,Dark Marbled Carpet,Dysstroma citrata,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,928
+01/08/2023,NO0493192909,,,Epinotia spp,10,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,929
+01/08/2023,NO0490492849,1,Anomalous,Stilbia anomala,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,930
+01/08/2023,NO0490492849,2,Foxglove Pug,Eupithecia pulchellata,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,931
+01/08/2023,NO0490492849,2,Green Carpet,Colostygia pectinataria,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,932
+01/08/2023,NO0490492849,2,July Highflyer,Hydriomena furcata,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,933
+01/08/2023,NO0490492849,8,True Lover's Knot,Lycophotia porphyrea,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,934
+01/08/2023,NO0490492849,6,Ingrailed Clay,Diarsia mendica,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,935
+01/08/2023,NO0490492849,1,Wormwood Pug,Eupithecia absinthiata,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,936
+01/08/2023,NO0490492849,1,Common Carpet,Epirrhoe alternata,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,937
+01/08/2023,NO0490492849,1,Barred Red,Hylaea fasciaria,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,938
+01/08/2023,NO0490492849,1,Square-spot Rustic,Xestia xanthographa,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,939
+01/08/2023,NO0490492849,2,Grey Mountain Carpet,Entephria caesiata,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,940
+01/08/2023,NO0490492849,3,Grey Pine Carpet,Thera obeliscata,12,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,941
+01/08/2023,NO0498492879,10,Grey Pine Carpet,Thera obeliscata,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,942
+01/08/2023,NO0498492879,3,Green Carpet,Colostygia pectinataria,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,943
+01/08/2023,NO0498492879,10,Ingrailed Clay,Diarsia mendica,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,944
+01/08/2023,NO0498492879,1,Holly Tortrix,Rhopobota naevana,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,945
+01/08/2023,NO0498492879,2,Wormwood Pug,Eupithecia absinthiata,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,946
+01/08/2023,NO0498492879,1,Dusted Flat-body,Agonopterix assimilella,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,947
+01/08/2023,NO0498492879,1,,Epinotia spp,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,948
+01/08/2023,NO0498492879,1,True Lover's Knot,Lycophotia porphyrea,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,949
+01/08/2023,NO0498492879,1,Smoky Wainscot,Mythimna impura,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,950
+01/08/2023,NO0498492879,1,Dotted Shade,Eana osseana,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,951
+01/08/2023,NO0498492879,1,Chestnut-coloured Carpet,Thera cognata,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,952
+01/08/2023,NO0498492879,1,Dotted Clay,Xestia baja,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,953
+01/08/2023,NO0498492879,1,Dark Arches,Apamea monoglypha,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,954
+01/08/2023,NO0498492879,1,Neglected Rustic,Xestia castanea,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,955
+01/08/2023,NO0498492879,1,Lesser Yellow Underwing,Noctua comes,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,956
+01/08/2023,NO0498492879,1,Square-spot Rustic,Xestia xanthographa,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,957
+01/08/2023,NO0498492879,1,Dark Pine Knot-horn,Dioryctria abietella,11,regeneration,2,Glen Derry/Lui,100,11,2,ENE,full_moon,none,958
+01/08/2023,NO0438189134,6,July Highflyer,Hydriomena furcata,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,959
+01/08/2023,NO0438189134,1,Pale Eggar,Trichiura crataegi,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,960
+01/08/2023,NO0438189134,1,Dotted Shade,Eana osseana,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,961
+01/08/2023,NO0438189134,3,Northern Spinach,Eulithis populata,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,962
+01/08/2023,NO0438189134,1,Wormwood Pug,Eupithecia absinthiata,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,963
+01/08/2023,NO0438189134,5,Dark Arches,Apamea monoglypha,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,964
+01/08/2023,NO0438189134,8,Ingrailed Clay,Diarsia mendica,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,965
+01/08/2023,NO0438189134,2,Antler Moth,Cerapteryx graminis,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,966
+01/08/2023,NO0438189134,1,Smoky Wainscot,Mythimna impura,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,967
+01/08/2023,NO0438189134,1,Lempke's Gold Spot,Plusia putnami,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,968
+01/08/2023,NO0438189134,1,Dark Marbled Carpet,Dysstroma citrata,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,969
+01/08/2023,NO0438189134,7,True Lover's Knot,Lycophotia porphyrea,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,970
+01/08/2023,NO0438189134,1,Dotted Clay,Xestia baja,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,971
+01/08/2023,NO0438189134,1,Holly Tortrix,Rhopobota naevana,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,972
+01/08/2023,NO0438189134,1,Square-spot Rustic,Xestia xanthographa,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,973
+01/08/2023,NO0438189134,1,Grey Pine Carpet,Thera obeliscata,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,974
+01/08/2023,NO0438189134,1,Common Marbled Carpet,Dysstroma truncata,41,moorland,1,Glen Dee West,100,11,2,ENE,full_moon,none,975
+02/08/2023,NO0716686990,4,Grey Mountain Carpet,Entephria caesiata,52,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,976
+02/08/2023,NO0716686990,4,True Lover's Knot,Lycophotia porphyrea,52,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,977
+02/08/2023,NO0716686990,1,Square-spot Rustic,Xestia xanthographa,52,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,978
+02/08/2023,NO0716686990,1,,Moth spp,52,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,979
+02/08/2023,NO0716686990,1,Dotted Shade,Eana osseana,52,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,980
+02/08/2023,NO0716686990,2,Northern Spinach,Eulithis populata,52,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,981
+02/08/2023,NO0716686990,1,Lesser Yellow Underwing,Noctua comes,52,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,982
+02/08/2023,NO0716686990,1,Scalloped Oak,Crocallis elinguaria,52,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,983
+02/08/2023,NO0716686990,1,Dark Arches,Apamea monoglypha,52,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,984
+02/08/2023,NO0716686990,2,Common Marbled Carpet,Dysstroma truncata,52,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,985
+02/08/2023,NO0728987016,2,Grey Pine Carpet,Thera obeliscata,54,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,986
+02/08/2023,NO0728987016,2,Scotch Annulet,Gnophos obfuscata,54,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,987
+02/08/2023,NO0728987016,1,Lesser Yellow Underwing,Noctua comes,54,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,988
+02/08/2023,NO0728987016,2,Ingrailed Clay,Diarsia mendica,54,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,989
+02/08/2023,NO0728987016,4,True Lover's Knot,Lycophotia porphyrea,54,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,990
+02/08/2023,NO0728987016,2,Grey Mountain Carpet,Entephria caesiata,54,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,991
+02/08/2023,NO1165491512,2,July Belle,Scotopteryx luridata,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,992
+02/08/2023,NO1165491512,8,Lesser Yellow Underwing,Noctua comes,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,993
+02/08/2023,NO1165491512,1,Large Yellow Underwing,Noctua pronuba,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,994
+02/08/2023,NO1165491512,1,Brown Knot-horn,Matilella fusca,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,995
+02/08/2023,NO1165491512,2,Grey Mountain Carpet,Entephria caesiata,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,996
+02/08/2023,NO1165491512,1,Square-spot Rustic,Xestia xanthographa,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,997
+02/08/2023,NO1165491512,1,Dark Arches,Apamea monoglypha,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,998
+02/08/2023,NO1165491512,1,Narrow-winged Pug,Eupithecia nanata,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,999
+02/08/2023,NO1165491512,1,Haworth's Minor,Celaena haworthii,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1000
+02/08/2023,NO1165491512,1,Bee Moth,Aphomia sociella,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1001
+02/08/2023,NO1165491512,1,Ingrailed Clay,Diarsia mendica,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1002
+02/08/2023,NO1165491512,1,July Belle,Scotopteryx luridata,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1003
+02/08/2023,NO1165491512,1,Broom Moth,Ceramica pisi,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1004
+02/08/2023,NO1165491512,1,Scotch Annulet,Gnophos obfuscata,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1005
+02/08/2023,NO1165491512,1,Lesser Broad-bordered Yellow Underwing,Noctua janthe,36,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1006
+02/08/2023,NO1008191930,2,Dotted Carpet,Alcis jubata,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1007
+02/08/2023,NO1008191930,9,Northern Spinach,Eulithis populata,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1008
+02/08/2023,NO1008191930,4,Common Marbled Carpet,Dysstroma truncata,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1009
+02/08/2023,NO1008191930,4,Grey Mountain Carpet,Entephria caesiata,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1010
+02/08/2023,NO1008191930,23,July Highflyer,Hydriomena furcata,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1011
+02/08/2023,NO1008191930,1,Dark Arches,Apamea monoglypha,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1012
+02/08/2023,NO1008191930,3,Dotted Clay,Xestia baja,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1013
+02/08/2023,NO1008191930,2,Green Carpet,Colostygia pectinataria,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1014
+02/08/2023,NO1008191930,1,Scalloped Oak,Crocallis elinguaria,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1015
+02/08/2023,NO1008191930,2,Ingrailed Clay,Diarsia mendica,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1016
+02/08/2023,NO1008191930,1,Cousin German,Protolampra sobrina,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1017
+02/08/2023,NO1008191930,1,Lesser Swallow Prominent,Pheosia gnoma,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1018
+02/08/2023,NO1008191930,1,Holly Tortrix,Rhopobota naevana,28,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1019
+02/08/2023,NO1016191913,1,Common Marbled Carpet,Dysstroma truncata,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1020
+02/08/2023,NO1016191913,1,Barred Red,Hylaea fasciaria,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1021
+02/08/2023,NO1016191913,15,July Highflyer,Hydriomena furcata,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1022
+02/08/2023,NO1016191913,2,Green Carpet,Colostygia pectinataria,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1023
+02/08/2023,NO1016191913,3,Dotted Clay,Xestia baja,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1024
+02/08/2023,NO1016191913,2,Grey Mountain Carpet,Entephria caesiata,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1025
+02/08/2023,NO1016191913,1,Northern Spinach,Eulithis populata,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1026
+02/08/2023,NO1016191913,3,Ingrailed Clay,Diarsia mendica,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1027
+02/08/2023,NO1016191913,1,Cousin German,Protolampra sobrina,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1028
+02/08/2023,NO1016191913,1,Grey Pine Carpet,Thera obeliscata,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1029
+02/08/2023,NO1016191913,1,Scalloped Oak,Crocallis elinguaria,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1030
+02/08/2023,NO1016191913,1,Heath Rustic,Xestia agathina,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1031
+02/08/2023,NO1016191913,1,Dotted Shade,Eana osseana,29,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1032
+02/08/2023,NO1158191450,2,Grey Mountain Carpet,Entephria caesiata,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1033
+02/08/2023,NO1158191450,2,Wormwood Pug,Eupithecia absinthiata,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1034
+02/08/2023,NO1158191450,1,Large Yellow Underwing,Noctua pronuba,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1035
+02/08/2023,NO1158191450,3,Ingrailed Clay,Diarsia mendica,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1036
+02/08/2023,NO1158191450,3,Lesser Yellow Underwing,Noctua comes,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1037
+02/08/2023,NO1158191450,1,Holly Tortrix,Rhopobota naevana,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1038
+02/08/2023,NO1158191450,2,Green Carpet,Colostygia pectinataria,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1039
+02/08/2023,NO1158191450,1,Grey Pine Carpet,Thera obeliscata,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1040
+02/08/2023,NO1158191450,2,True Lover's Knot,Lycophotia porphyrea,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1041
+02/08/2023,NO1158191450,2,Square-spot Rustic,Xestia xanthographa,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1042
+02/08/2023,NO1158191450,1,Purple Bar,Cosmorhoe ocellata,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1043
+02/08/2023,NO1158191450,1,Double Dart,Graphiphora augur,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1044
+02/08/2023,NO1158191450,1,Dark Arches,Apamea monoglypha,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1045
+02/08/2023,NO1158191450,1,Smoky Wainscot,Mythimna impura,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1046
+02/08/2023,NO1158191450,1,Straw-barred Pearl,Pyrausta despicata,35,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1047
+02/08/2023,NO1023791912,5,Grey Mountain Carpet,Entephria caesiata,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1048
+02/08/2023,NO1023791912,5,Grey Pine Carpet,Thera obeliscata,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1049
+02/08/2023,NO1023791912,17,July Highflyer,Hydriomena furcata,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1050
+02/08/2023,NO1023791912,1,Large Yellow Underwing,Noctua pronuba,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1051
+02/08/2023,NO1023791912,2,Dark Arches,Apamea monoglypha,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1052
+02/08/2023,NO1023791912,7,Ingrailed Clay,Diarsia mendica,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1053
+02/08/2023,NO1023791912,2,Common Marbled Carpet,Dysstroma truncata,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1054
+02/08/2023,NO1023791912,2,Green Carpet,Colostygia pectinataria,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1055
+02/08/2023,NO1023791912,10,Northern Spinach,Eulithis populata,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1056
+02/08/2023,NO1023791912,1,Gold Spangle,Autographa bractea,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1057
+02/08/2023,NO1023791912,2,Mottled Beauty,Alcis repandata,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1058
+02/08/2023,NO1023791912,2,Holly Tortrix,Rhopobota naevana,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1059
+02/08/2023,NO1023791912,2,True Lover's Knot,Lycophotia porphyrea,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1060
+02/08/2023,NO1023791912,1,Middle-barred Minor,Oligia fasciuncula,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1061
+02/08/2023,NO1023791912,1,Suspected,Parastichtis suspecta,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1062
+02/08/2023,NO1023791912,1,Welsh Wave,Venusia cambrica,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1063
+02/08/2023,NO1023791912,1,Barred Red,Hylaea fasciaria,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1064
+02/08/2023,NO1023791912,1,Yellow Shell,Camptogramma bilineata,30,woodland,3,Glen Quoich,100,12,3,NNW,full_moon,none,1065
+02/08/2023,NO1152191450,1,Grey Pine Carpet,Thera obeliscata,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1066
+02/08/2023,NO1152191450,1,Scotch Annulet,Gnophos obfuscata,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1067
+02/08/2023,NO1152191450,1,Wormwood Pug,Eupithecia absinthiata,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1068
+02/08/2023,NO1152191450,6,Ingrailed Clay,Diarsia mendica,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1069
+02/08/2023,NO1152191450,1,Neglected Rustic,Xestia castanea,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1070
+02/08/2023,NO1152191450,3,Dark Arches,Apamea monoglypha,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1071
+02/08/2023,NO1152191450,1,Square-spot Rustic,Xestia xanthographa,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1072
+02/08/2023,NO1152191450,1,Six-striped Rustic,Xestia sexstrigata,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1073
+02/08/2023,NO1152191450,2,Smoky Wainscot,Mythimna impura,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1074
+02/08/2023,NO1152191450,1,Lesser Yellow Underwing,Noctua comes,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1075
+02/08/2023,NO1152191450,1,Anomalous,Stilbia anomala,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1076
+02/08/2023,NO1152191450,1,Dotted Clay,Xestia baja,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1077
+02/08/2023,NO1152191450,1,Cousin German,Protolampra sobrina,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1078
+02/08/2023,NO1152191450,1,Pearl-band Grass Veneer,Catoptria margaritella,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1079
+02/08/2023,NO1152191450,1,Dark Pine Knot-horn,Dioryctria abietella,34,regeneration,2,Glen Quoich,100,12,3,NNW,full_moon,none,1080
+02/08/2023,NO0722487017,2,True Lover's Knot,Lycophotia porphyrea,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1081
+02/08/2023,NO0722487017,1,Ingrailed Clay,Diarsia mendica,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1082
+02/08/2023,NO0722487017,1,July Highflyer,Hydriomena furcata,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1083
+02/08/2023,NO0722487017,1,Wormwood Pug,Eupithecia absinthiata,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1084
+02/08/2023,NO0722487017,1,Holly Tortrix,Rhopobota naevana,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1085
+02/08/2023,NO0722487017,1,Lesser Yellow Underwing,Noctua comes,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1086
+02/08/2023,NO0722487017,1,Grey Pine Carpet,Thera obeliscata,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1087
+02/08/2023,NO0722487017,1,Heath Rustic,Xestia agathina,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1088
+02/08/2023,NO0722487017,2,Grey Mountain Carpet,Entephria caesiata,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1089
+02/08/2023,NO0722487017,1,Dark Marbled Carpet,Dysstroma citrata,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1090
+02/08/2023,NO0722487017,1,Dark Arches,Apamea monoglypha,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1091
+02/08/2023,NO0722487017,1,Dotted Shade,Eana osseana,53,moorland,1,Allt Christie East,100,12,3,NNW,full_moon,none,1092
