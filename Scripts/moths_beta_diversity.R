@@ -1,4 +1,7 @@
 library(betapart)
+library(tidyr)
+library(data.table)
+library(ggplot2)
 rm(list = ls())
 
 moths <- read.csv("Data/Moth_data.csv", header=TRUE)
@@ -81,13 +84,15 @@ lookup <- c("beta.SNE"="Nestedness", "beta.SIM"="Turnover", "beta.SOR"="Total di
 dist_all2$Beta_div <- as.character(lookup[dist_all2$Beta_div])
 dist_all2$Beta_div  = factor(dist_all2$Beta_div, levels=c("Nestedness", 
                                                           "Turnover", "Total dissimilarity"))
+dist_all2 <- dist_all2[!dist_all2$Beta_div=="Total dissimilarity",]
+dist_all2$Beta_div  = factor(dist_all2$Beta_div, levels=c("Turnover", "Nestedness"))
 
 div_bar <- ggplot(dist_all2, aes(x = Treatment, y = value, fill = Beta_div)) +
   geom_col()+
   labs(y="Dissimilarity value")+
   theme(legend.title=element_blank())
 div_bar
-ggsave(div_bar, file="Graphs/Beta_diversity_treatment_barchart.png", height=4, width=6)
+ggsave(div_bar, file="Graphs/Beta_diversity_treatment_barchart2.png", height=4, width=6)
 # SOR = total dissimilarity
 # SIM = turnover
 # SNE = nestedness 
