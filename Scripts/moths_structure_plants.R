@@ -1,3 +1,4 @@
+
 ##########################
 ## User: Lisbeth Hordley
 ## Date: November 2023
@@ -24,7 +25,7 @@ library(performance)
 library(vegan)
 library(factoextra)
 options(scipen=999)
-
+getwd()
 # read in data
 moths_final <- read.csv("Data/Moths_data_final.csv", header=TRUE)
 habitat <- read.csv("Data/Habitat_data.csv", header=TRUE)
@@ -75,18 +76,35 @@ ggplot(moths_final, aes(conifer_canopy, richness))+
   geom_point()+ 
   geom_smooth()+
   theme_classic()
+ggplot(moths_final, aes(conifer_canopy, tot_div))+
+  geom_point()+ 
+  geom_smooth()+
+  theme_classic()
 
 ggplot(moths_final, aes(broadleaf_canopy, richness))+
   geom_point()+ 
-  # geom_smooth()+
+  #geom_smooth()+
+  theme_classic()
+ggplot(moths_final, aes(broadleaf_canopy, tot_div))+
+  geom_point()+ 
+  #geom_smooth()+
   theme_classic()
 
 ggplot(moths_final, aes(ground_layer, richness))+
   geom_point()+ 
   stat_smooth()+
   theme_classic()
+ggplot(moths_final, aes(ground_layer, tot_div))+
+  geom_point()+ 
+  stat_smooth()+
+  theme_classic()
+
 
 ggplot(moths_final, aes(complexity_score, richness))+
+  geom_point()+ 
+  stat_smooth()+
+  theme_classic()
+ggplot(moths_final, aes(complexity_score, tot_div))+
   geom_point()+ 
   stat_smooth()+
   theme_classic()
@@ -95,9 +113,14 @@ ggplot(moths_final, aes(ground_layer_height_cv, richness))+
   geom_point()+ 
   stat_smooth()+
   theme_classic()
+ggplot(moths_final, aes(ground_layer_height_cv, tot_div))+
+  geom_point()+ 
+  stat_smooth()+
+  theme_classic()
 
 
 ##########################################################################################
+###### Adbundance models ###########
 
 abund_struc <- glmmTMB(tot_abund ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + scale(tree_regeneration) +
                          scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
@@ -160,7 +183,7 @@ abund_struc <- glmmTMB(woodland_abund ~ scale(Min_temp) + scale(Wind_speed) + Lu
                          scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
                          scale(complexity_score) + scale(ground_layer_height_cv) + 
                          scale(tree_regeneration) + (1|visit) + (1|Sub_site), data=moths_final, 
-                         family="genpois", na.action = "na.fail")
+                       family="genpois", na.action = "na.fail")
 
 summary(abund_struc)
 
@@ -213,7 +236,7 @@ abund_structure <- rbind(abund_structure, wood_abund_broadleaf, wood_abund_conif
 abund_struc <- glmmTMB(moorland_abund ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
                          scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
                          scale(tree_regeneration) + scale(ground_layer_height_cv) + (1|visit) + (1|Sub_site), data=moths_final, 
-                         family="genpois", na.action = "na.fail")
+                       family="genpois", na.action = "na.fail")
 
 summary(abund_struc)
 
@@ -726,6 +749,353 @@ ggpredict(rich_struc, terms="ground_layer") %>% plot(add.data=TRUE)
 
 
 
+
+
+####################################################################################
+#**************** kp addition *****************
+############## DIVERSITY MODELS #####################
+### GLOBAL MODEL
+#div_struc <- glmmTMB(tot_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+#                      scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
+#                      scale(tree_regeneration) + scale(complexity_score) + scale(ground_layer_height_cv) + (1|visit) + 
+#                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+div_struc <- glmmTMB(tot_div ~ scale(Min_temp) + scale(Wind_speed) + 
+                       scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
+                       scale(tree_regeneration) + scale(complexity_score) + scale(ground_layer_height_cv) + (1|visit) + 
+                       (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+coef(summary(div_struc))
+# minimum temperature (positive)
+# wind speed (negative)
+# conifer canopy (positive)
+# ground layer (positive)
+
+div_struc_sum <- as.data.frame(coef(summary(div_struc))$cond)
+div_struc_sum$parameters <- row.names(div_struc_sum)
+row.names(div_struc_sum) <- 1:nrow(div_struc_sum)
+#div_struc_sum$`z value` <- NULL
+colnames(div_struc_sum)[4] <- "p_value"
+div_struc_sum <- as.data.frame(div_struc_sum)
+div_struc_sum$significance <- case_when(
+  div_struc_sum$p_value>=0.05 ~ "ns",
+  div_struc_sum$p_value<0.05 & div_struc_sum$p_value>=0.01 ~ "*",
+  div_struc_sum$p_value<0.01 & div_struc_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_struc_sum <- div_struc_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_struc_sum
+sum1<-div_struc_sum
+## check model assumptions
+testDispersion(div_struc) 
+simulationOutput <- simulateResiduals(fittedModel = div_struc, plot = F)
+plot(simulationOutput) ## 
+testZeroInflation(simulationOutput)
+## check for multicolinearity
+check_collinearity(div_struc) ## remove Lunar_cycle
+
+### Ground layer is significant
+div_ground <- ggpredict(div_struc, terms="ground_layer")
+div_ground$predictor <- "Ground layer cover"
+div_ground$response <- "Total species diversity"
+
+div_structure <- rbind(div_ground)
+
+##########woodland
+div_struc <- glmmTMB(woodland_div ~ scale(Min_temp) + scale(Wind_speed) +
+                       scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
+                       scale(tree_regeneration) + scale(complexity_score) + scale(ground_layer_height_cv) + (1|visit) + 
+                       (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+coef(summary(div_struc))
+# minimum temperature (positive)
+# wind speed (negative)
+# conifer canopy (positive)
+# ground layer (positive)
+
+div_struc_sum <- as.data.frame(coef(summary(div_struc))$cond)
+div_struc_sum$parameters <- row.names(div_struc_sum)
+row.names(div_struc_sum) <- 1:nrow(div_struc_sum)
+#div_struc_sum$`z value` <- NULL
+colnames(div_struc_sum)[4] <- "p_value"
+div_struc_sum <- as.data.frame(div_struc_sum)
+div_struc_sum$significance <- case_when(
+  div_struc_sum$p_value>=0.05 ~ "ns",
+  div_struc_sum$p_value<0.05 & div_struc_sum$p_value>=0.01 ~ "*",
+  div_struc_sum$p_value<0.01 & div_struc_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_struc_sum <- div_struc_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_struc_sum
+sum2<-div_struc_sum
+## check model assumptions
+testDispersion(div_struc) 
+simulationOutput <- simulateResiduals(fittedModel = div_struc, plot = F)
+plot(simulationOutput) ## 
+testZeroInflation(simulationOutput)
+## check for multicolinearity
+check_collinearity(div_struc) ## remove lunar cycle
+
+div_ground <- ggpredict(div_struc, terms="ground_layer")
+
+div_ground$predictor <- "Ground layer cover"
+
+div_ground$response <- "Woodland species diversity"
+
+div_structure <- rbind(div_structure, div_ground)
+
+##########moorland
+div_struc <- glmmTMB(moorland_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+                       scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
+                      scale(ground_layer_height_cv) + (1|visit) + 
+                       (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+coef(summary(div_struc))
+# minimum temperature (positive)
+# wind speed (negative)
+# conifer canopy (positive)
+# ground layer (positive)
+
+div_struc_sum <- as.data.frame(coef(summary(div_struc))$cond)
+div_struc_sum$parameters <- row.names(div_struc_sum)
+row.names(div_struc_sum) <- 1:nrow(div_struc_sum)
+#div_struc_sum$`z value` <- NULL
+colnames(div_struc_sum)[4] <- "p_value"
+div_struc_sum <- as.data.frame(div_struc_sum)
+div_struc_sum$significance <- case_when(
+  div_struc_sum$p_value>=0.05 ~ "ns",
+  div_struc_sum$p_value<0.05 & div_struc_sum$p_value>=0.01 ~ "*",
+  div_struc_sum$p_value<0.01 & div_struc_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_struc_sum <- div_struc_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+sum3<-div_struc_sum
+
+## check model assumptions
+testDispersion(div_struc) 
+simulationOutput <- simulateResiduals(fittedModel = div_struc, plot = F)
+plot(simulationOutput) ## 
+testZeroInflation(simulationOutput)
+## check for multicolinearity
+check_collinearity(div_struc) ## remove tree regeneration and complexity score
+div_struc_sum
+
+div_ground <- ggpredict(div_struc, terms="ground_layer")
+
+div_ground$predictor <- "Ground layer cover"
+
+div_ground$response <- "Moorland species diversity"
+
+div_structure <- rbind(div_structure, div_ground)
+
+
+###### grassland
+#div_struc <- glmmTMB(tot_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+#                      scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
+#                      scale(tree_regeneration) + scale(complexity_score) + scale(ground_layer_height_cv) + (1|visit) + 
+#                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+div_struc <- glmmTMB(grassland_div ~ scale(Min_temp) + scale(Wind_speed) + 
+                                             scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
+                                             scale(tree_regeneration) + scale(complexity_score) + scale(ground_layer_height_cv) + (1|visit) + 
+                                             (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+coef(summary(div_struc))
+# minimum temperature (positive)
+# wind speed (negative)
+# conifer canopy (positive)
+# ground layer (positive)
+
+div_struc_sum <- as.data.frame(coef(summary(div_struc))$cond)
+div_struc_sum$parameters <- row.names(div_struc_sum)
+row.names(div_struc_sum) <- 1:nrow(div_struc_sum)
+#div_struc_sum$`z value` <- NULL
+colnames(div_struc_sum)[4] <- "p_value"
+div_struc_sum <- as.data.frame(div_struc_sum)
+div_struc_sum$significance <- case_when(
+  div_struc_sum$p_value>=0.05 ~ "ns",
+  div_struc_sum$p_value<0.05 & div_struc_sum$p_value>=0.01 ~ "*",
+  div_struc_sum$p_value<0.01 & div_struc_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_struc_sum <- div_struc_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_struc_sum
+sum4<-div_struc_sum
+## check model assumptions
+testDispersion(div_struc) 
+simulationOutput <- simulateResiduals(fittedModel = div_struc, plot = F)
+plot(simulationOutput) ## 
+testZeroInflation(simulationOutput)
+## check for multicolinearity
+check_collinearity(div_struc) ## remove Lunar_cycle
+
+### Ground layer is significant
+div_ground <- ggpredict(div_struc, terms="ground_layer")
+div_ground$predictor <- "Ground layer cover"
+div_ground$response <- "Grassland species diversity"
+
+div_structure <- rbind(div_structure, div_ground)
+
+
+###### conifer
+#div_struc <- glmmTMB(tot_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+#                      scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
+#                      scale(tree_regeneration) + scale(complexity_score) + scale(ground_layer_height_cv) + (1|visit) + 
+#                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+div_struc <- glmmTMB(conifer_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+                      scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
+                      scale(ground_layer_height_cv) + (1|visit) + 
+                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+coef(summary(div_struc))
+# minimum temperature (positive)
+# wind speed (negative)
+# conifer canopy (positive)
+# ground layer (positive)
+
+div_struc_sum <- as.data.frame(coef(summary(div_struc))$cond)
+div_struc_sum$parameters <- row.names(div_struc_sum)
+row.names(div_struc_sum) <- 1:nrow(div_struc_sum)
+#div_struc_sum$`z value` <- NULL
+colnames(div_struc_sum)[4] <- "p_value"
+div_struc_sum <- as.data.frame(div_struc_sum)
+div_struc_sum$significance <- case_when(
+  div_struc_sum$p_value>=0.05 ~ "ns",
+  div_struc_sum$p_value<0.05 & div_struc_sum$p_value>=0.01 ~ "*",
+  div_struc_sum$p_value<0.01 & div_struc_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_struc_sum <- div_struc_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_struc_sum
+sum5<-div_struc_sum
+## check model assumptions
+testDispersion(div_struc) 
+simulationOutput <- simulateResiduals(fittedModel = div_struc, plot = F)
+plot(simulationOutput) ## 
+testZeroInflation(simulationOutput)
+## check for multicolinearity
+check_collinearity(div_struc) ## remove complexity score and tree regeneration
+
+### Ground layer is significant
+div_ground <- ggpredict(div_struc, terms="conifer_canopy")
+div_ground$predictor <- "Conifer canopy cover"
+div_ground$response <- "Conifer species diversity"
+
+div_structure <- rbind(div_structure, div_ground)
+
+
+
+
+###### broadleaf
+#div_struc <- glmmTMB(tot_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+#                      scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
+#                      scale(tree_regeneration) + scale(complexity_score) + scale(ground_layer_height_cv) + (1|visit) + 
+#                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+div_struc <- glmmTMB(broadleaf_div ~ scale(Min_temp) + scale(Wind_speed) + 
+                       scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
+                       scale(ground_layer_height_cv) + (1|visit) + 
+                       (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+coef(summary(div_struc))
+# minimum temperature (positive)
+# wind speed (negative)
+# conifer canopy (positive)
+# ground layer (positive)
+
+div_struc_sum <- as.data.frame(coef(summary(div_struc))$cond)
+div_struc_sum$parameters <- row.names(div_struc_sum)
+row.names(div_struc_sum) <- 1:nrow(div_struc_sum)
+#div_struc_sum$`z value` <- NULL
+colnames(div_struc_sum)[4] <- "p_value"
+div_struc_sum <- as.data.frame(div_struc_sum)
+div_struc_sum$significance <- case_when(
+  div_struc_sum$p_value>=0.05 ~ "ns",
+  div_struc_sum$p_value<0.05 & div_struc_sum$p_value>=0.01 ~ "*",
+  div_struc_sum$p_value<0.01 & div_struc_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_struc_sum <- div_struc_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_struc_sum
+sum6<-div_struc_sum
+## check model assumptions
+testDispersion(div_struc) 
+simulationOutput <- simulateResiduals(fittedModel = div_struc, plot = F)
+plot(simulationOutput) ## 
+testZeroInflation(simulationOutput)
+## check for multicolinearity
+check_collinearity(div_struc) ## remove Lunar_cycle, tree regeneration and complexity score
+
+### Ground layer is significant
+div_ground <- ggpredict(div_struc, terms="ground_layer")
+div_ground$predictor <- "Ground layer cover"
+div_ground$response <- "Broadleaf species diversity"
+div_structure <- rbind(div_structure, div_ground)
+
+div_ground <- ggpredict(div_struc, terms="broadleaf_canopy")
+div_ground$predictor <- "Broadleaf canopy cover"
+div_ground$response <- "Broadleaf species diversity"
+div_structure <- rbind(div_structure, div_ground)
+
+div_ground <- ggpredict(div_struc, terms="conifer_canopy")
+div_ground$predictor <- "Conifer canopy cover"
+div_ground$response <- "Conifer species diversity"
+div_structure <- rbind(div_structure, div_ground)
+
+###### shrub
+div_struc <- glmmTMB(shrub_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+                      scale(conifer_canopy) + scale(broadleaf_canopy) + scale(ground_layer) + 
+                       scale(ground_layer_height_cv) + (1|visit) + 
+                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+
+coef(summary(div_struc))
+# minimum temperature (positive)
+# wind speed (negative)
+# conifer canopy (positive)
+# ground layer (positive)
+
+div_struc_sum <- as.data.frame(coef(summary(div_struc))$cond)
+div_struc_sum$parameters <- row.names(div_struc_sum)
+row.names(div_struc_sum) <- 1:nrow(div_struc_sum)
+#div_struc_sum$`z value` <- NULL
+colnames(div_struc_sum)[4] <- "p_value"
+div_struc_sum <- as.data.frame(div_struc_sum)
+div_struc_sum$significance <- case_when(
+  div_struc_sum$p_value>=0.05 ~ "ns",
+  div_struc_sum$p_value<0.05 & div_struc_sum$p_value>=0.01 ~ "*",
+  div_struc_sum$p_value<0.01 & div_struc_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_struc_sum <- div_struc_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_struc_sum
+sum7<-div_struc_sum
+## check model assumptions
+testDispersion(div_struc) 
+simulationOutput <- simulateResiduals(fittedModel = div_struc, plot = F)
+plot(simulationOutput) ## 
+testZeroInflation(simulationOutput)
+## check for multicolinearity
+check_collinearity(div_struc) ## remove Lunar_cycle, tree regeneration and complexity score
+
+### Ground layer is significant
+div_ground <- ggpredict(div_struc, terms="ground_layer")
+div_ground$predictor <- "Ground layer cover"
+div_ground$response <- "Shrub species diversity"
+div_structure <- rbind(div_structure, div_ground)
+
+
+div_ground <- ggpredict(div_struc, terms="conifer_canopy")
+div_ground$predictor <- "Conifer canopy cover"
+div_ground$response <- "Shrub species diversity"
+div_structure <- rbind(div_structure, div_ground)
+
+
+
+############ Diversity model summary table
+sum1$response<-"Total Diversity"
+sum2$response<-"Woodland Species Diversity"
+sum3$response<-"Moorland Species Diversity"
+sum4$response<-"Grassland Species Diversity"
+sum5$response<-"Conifer Species Diversity"
+sum6$response<-"Broadleaf Species Diversity"
+sum7$response<-"Shrub Species Diversity"
+summary_final<- rbind(sum1, sum2, sum3, sum4, sum5, sum6, sum7)
+summary_final
+
+write.csv(summary_final, "PlantStructure_ModelOutputs.csv", row.names=FALSE)
+
+
 ############# Supplementary material plot
 
 structure_predictions <- rbind(abund_structure, rich_structure)
@@ -860,6 +1230,8 @@ ggsave(plot, file="Graphs/Structure_supplementary_plot.png", height=5, width=7)
 
 
 
+
+
 ##########################################################################################################
 ##########################################################################################################
 
@@ -889,8 +1261,13 @@ cor.test(moths_final$richness, moths_final$vaccinium_myrtilus) # r=0.42, p<0.001
 cor.test(moths_final$tot_abund, moths_final$vaccinium_vitis.idaea) # r=0.37, p<0.001
 cor.test(moths_final$tot_abund, moths_final$vaccinium_myrtilus) # r=0.51, p<0.001
 # remove vaccinium_vitis.idaea from abundance models
+######**************** kp addition *****************
+cor.test(moths_final$tot_div, moths_final$vaccinium_vitis.idaea) # r=0.12, p=0.2
+cor.test(moths_final$tot_div, moths_final$vaccinium_myrtilus) # r=0.28, p<0.05
+# remove vaccinium_vitis.idaea from diversity models
 
 # high VIF values in models for calluna and vaccinium - one needs to be removed
+
 # correlation between them is -0.58
 cor.test(moths_final$tot_abund, moths_final$calluna_vulgaris) # r=-0.26, p<0.001
 cor.test(moths_final$tot_abund, moths_final$vaccinium_myrtilus) # r=0.51, p<0.001
@@ -898,6 +1275,11 @@ cor.test(moths_final$tot_abund, moths_final$vaccinium_myrtilus) # r=0.51, p<0.00
 cor.test(moths_final$richness, moths_final$calluna_vulgaris) # r=-0.19, p=0.05
 cor.test(moths_final$richness, moths_final$vaccinium_myrtilus) # r=0.42, p<0.001
 # remove calluna vulgaris from richness models too
+#####**************** kp addition *****************
+cor.test(moths_final$tot_div, moths_final$calluna_vulgaris) # r=-0.1, p=0.3 
+cor.test(moths_final$tot_div, moths_final$vaccinium_myrtilus) # r=0.28, p<0.01
+# remove calluna vulgaris from diversity models too
+
 
 ggplot(moths_final, aes(x=calluna_vulgaris, y=vaccinium_myrtilus))+
   geom_point() # negatively correlated
@@ -1534,9 +1916,340 @@ car::vif(rich_plant) ## all good (under 3)
 
 
 
+####################################################################################
+#**************** kp addition *****************
+############## DIVERSITY MODELS #####################################################
+
+ggplot(moths_final, aes(calluna_vulgaris, tot_div))+
+  geom_point()+ 
+  geom_smooth()+
+  theme_classic()
+
+ggplot(moths_final, aes(erica_cinerea, tot_div))+
+  geom_point()+ 
+  geom_smooth()+
+  theme_classic()
+# possibly 4 outliers
+
+ggplot(moths_final, aes(vaccinium_myrtilus, tot_div))+
+  geom_point()+ 
+  stat_smooth()+
+  theme_classic()
+
+ggplot(moths_final, aes(grass, tot_div))+
+  geom_point()+ 
+  stat_smooth()+
+  theme_classic()
+
+ggplot(moths_final, aes(forb, tot_div))+
+  geom_point()+ 
+  stat_smooth()+
+  theme_classic()
+# two big outliers
+
+ggplot(moths_final, aes(pinus_sylvestris, tot_div))+
+  geom_point()+ 
+  stat_smooth()+
+  theme_classic()
+
+ggplot(moths_final, aes(betula_spp, tot_div))+
+  geom_point()+ 
+  stat_smooth()+
+  theme_classic()
+
+names(moths_final)
+
+######### DO NOT INCLUDE: vaccinium_vitis.idaea OR calluna vulgaris
+
+div_plant <- glmmTMB(tot_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+                      scale(erica_cinerea) + scale(vaccinium_myrtilus) + 
+                      scale(grass) + scale(forb) + scale(pinus_sylvestris) + scale(betula_spp) + (1|visit) + 
+                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+
+summary(div_plant)
+# min temp (positive)
+# wind speed (negative)
+# vaccinium myrtilus (positive)
+# pinus sylvestris (positive)
+# betula (positive)
+
+div_plant_sum <- as.data.frame(coef(summary(div_plant))$cond)
+div_plant_sum$parameters <- row.names(div_plant_sum)
+row.names(div_plant_sum) <- 1:nrow(div_plant_sum)
+#div_plant_sum$`z value` <- NULL
+colnames(div_plant_sum)[4] <- "p_value"
+div_plant_sum <- as.data.frame(div_plant_sum)
+div_plant_sum$significance <- case_when(
+  div_plant_sum$p_value>=0.05 ~ "ns",
+  div_plant_sum$p_value<0.05 & div_plant_sum$p_value>=0.01 ~ "*",
+  div_plant_sum$p_value<0.01 & div_plant_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_plant_sum <- div_plant_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_plant_sum$response<-"Total Diversity"
+div_plant_sum
+sum1<-div_plant_sum
+sum1
+## check model assumptions
+testDispersion(div_plant) 
+simulationOutput <- simulateResiduals(fittedModel = div_plant, plot = F)
+plot(simulationOutput) ## quantile deviations
+## check for multicolinearity
+check_collinearity(div_plant)
+
+
+
+
+
+
+## Woodland tot_div
+div_plant <- glmmTMB(woodland_div ~ scale(Min_temp) + scale(Wind_speed) + 
+                      scale(erica_cinerea) + scale(vaccinium_myrtilus) + 
+                      scale(grass) + scale(forb) + scale(pinus_sylvestris) + scale(betula_spp) + (1|visit) + 
+                      (1|Sub_site), data=moths_final, family="gaussian", ziformula=~1, na.action = "na.fail")
+summary(div_plant)
+# min temp (positive)
+# wind speed (negative)
+# vaccinium myrtilus (positive)
+# forb (positive)
+# pinus sylvestris (positive)
+# betula (positive)
+
+div_plant_sum <- as.data.frame(coef(summary(div_plant))$cond)
+div_plant_sum$parameters <- row.names(div_plant_sum)
+row.names(div_plant_sum) <- 1:nrow(div_plant_sum)
+#div_plant_sum$`z value` <- NULL
+colnames(div_plant_sum)[4] <- "p_value"
+div_plant_sum <- as.data.frame(div_plant_sum)
+div_plant_sum$significance <- case_when(
+  div_plant_sum$p_value>=0.05 ~ "ns",
+  div_plant_sum$p_value<0.05 & div_plant_sum$p_value>=0.01 ~ "*",
+  div_plant_sum$p_value<0.01 & div_plant_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_plant_sum <- div_plant_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_plant_sum$response<-"Woodland Species Diversity"
+div_plant_sum
+sum2<-div_plant_sum
+
+
+## check model assumptions
+testDispersion(div_plant) 
+simulationOutput <- simulateResiduals(fittedModel = div_plant, plot = F)
+plot(simulationOutput) ## quantile deviations detected - 
+## check for multicolinearity
+check_collinearity(div_plant) ## remove lunar cycle
+
+
+
+## Moorland tot_div
+div_plant <- glmmTMB(moorland_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+                      scale(erica_cinerea) + scale(vaccinium_myrtilus) + 
+                      scale(grass) + scale(forb) + scale(pinus_sylvestris) + scale(betula_spp) + (1|visit) + 
+                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail", ziformula=~1)
+summary(div_plant)
+# min temp (positive)
+# wind speed (negative)
+# pinus sylvestris (positive)
+
+div_plant_sum <- as.data.frame(coef(summary(div_plant))$cond)
+div_plant_sum$parameters <- row.names(div_plant_sum)
+row.names(div_plant_sum) <- 1:nrow(div_plant_sum)
+#div_plant_sum$`z value` <- NULL
+colnames(div_plant_sum)[4] <- "p_value"
+div_plant_sum <- as.data.frame(div_plant_sum)
+div_plant_sum$significance <- case_when(
+  div_plant_sum$p_value>=0.05 ~ "ns",
+  div_plant_sum$p_value<0.05 & div_plant_sum$p_value>=0.01 ~ "*",
+  div_plant_sum$p_value<0.01 & div_plant_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_plant_sum <- div_plant_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_plant_sum$response<-"Moorland Species Diversity"
+div_plant_sum
+sum3<-div_plant_sum
+
+
+## check model assumptions
+testDispersion(div_plant) 
+simulationOutput <- simulateResiduals(fittedModel = div_plant, plot = F)
+plot(simulationOutput) ## quantile deviations
+## check for multicolinearity
+check_collinearity(div_plant)  ## all good (under 3)
+
+
+
+
+
+
+## Grassland tot_div
+div_plant <- glmmTMB(grassland_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+                      scale(erica_cinerea) + scale(vaccinium_myrtilus) + 
+                      scale(grass) + scale(forb) + scale(pinus_sylvestris) + scale(betula_spp) + (1|visit) + 
+                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+summary(div_plant)
+# min temp (positive)
+# wind speed (negative)
+# grass (negative)
+# forb (positive)
+
+div_plant_sum <- as.data.frame(coef(summary(div_plant))$cond)
+div_plant_sum$parameters <- row.names(div_plant_sum)
+row.names(div_plant_sum) <- 1:nrow(div_plant_sum)
+#div_plant_sum$`z value` <- NULL
+colnames(div_plant_sum)[4] <- "p_value"
+div_plant_sum <- as.data.frame(div_plant_sum)
+div_plant_sum$significance <- case_when(
+  div_plant_sum$p_value>=0.05 ~ "ns",
+  div_plant_sum$p_value<0.05 & div_plant_sum$p_value>=0.01 ~ "*",
+  div_plant_sum$p_value<0.01 & div_plant_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_plant_sum <- div_plant_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_plant_sum$response<-"Grassland Species Diversity"
+div_plant_sum
+sum4<-div_plant_sum
+
+
+## check model assumptions
+testDispersion(div_plant) 
+simulationOutput <- simulateResiduals(fittedModel = div_plant, plot = F)
+plot(simulationOutput) ## quantile deviations
+## check for multicolinearity
+check_collinearity(div_plant) ## all good (under 3)
+
+
+
+
+
+## Conifer tot_div
+div_plant <- glmmTMB(conifer_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+                      scale(erica_cinerea) + scale(vaccinium_myrtilus) + 
+                      scale(grass) + scale(forb) + scale(pinus_sylvestris) + scale(betula_spp) + (1|visit) + 
+                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+summary(div_plant)
+# min temp (positive)
+# wind speed (negative)
+# pinus sylvestris (positive)
+# betula spp (positive)
+
+div_plant_sum <- as.data.frame(coef(summary(div_plant))$cond)
+div_plant_sum$parameters <- row.names(div_plant_sum)
+row.names(div_plant_sum) <- 1:nrow(div_plant_sum)
+#div_plant_sum$`z value` <- NULL
+colnames(div_plant_sum)[4] <- "p_value"
+div_plant_sum <- as.data.frame(div_plant_sum)
+div_plant_sum$significance <- case_when(
+  div_plant_sum$p_value>=0.05 ~ "ns",
+  div_plant_sum$p_value<0.05 & div_plant_sum$p_value>=0.01 ~ "*",
+  div_plant_sum$p_value<0.01 & div_plant_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_plant_sum <- div_plant_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_plant_sum$response<-"Conifer Species Diversity"
+div_plant_sum
+sum5<-div_plant_sum
+
+
+## check model assumptions
+testDispersion(div_plant) 
+simulationOutput <- simulateResiduals(fittedModel = div_plant, plot = F)
+plot(simulationOutput) ## quantile deviations
+## check for multicolinearity
+check_collinearity(div_plant) ## all good (under 3)
+
+
+
+
+
+## Broadleaf tot_div
+div_plant <- glmmTMB(broadleaf_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+                      scale(erica_cinerea) + scale(vaccinium_myrtilus) + 
+                      scale(grass) + scale(forb) + scale(pinus_sylvestris) + scale(betula_spp) + (1|visit) + 
+                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+summary(div_plant)
+# min temp (positive)
+# vaccinium myrtilus (positive)
+# pinus sylvestris (positive)
+# betula spp (positive)
+
+div_plant_sum <- as.data.frame(coef(summary(div_plant))$cond)
+div_plant_sum$parameters <- row.names(div_plant_sum)
+row.names(div_plant_sum) <- 1:nrow(div_plant_sum)
+#div_plant_sum$`z value` <- NULL
+colnames(div_plant_sum)[4] <- "p_value"
+div_plant_sum <- as.data.frame(div_plant_sum)
+div_plant_sum$significance <- case_when(
+  div_plant_sum$p_value>=0.05 ~ "ns",
+  div_plant_sum$p_value<0.05 & div_plant_sum$p_value>=0.01 ~ "*",
+  div_plant_sum$p_value<0.01 & div_plant_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_plant_sum <- div_plant_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_plant_sum$response<-"Broadleaf Species Diversity"
+div_plant_sum
+sum6<-div_plant_sum
+
+
+## check model assumptions
+testDispersion(div_plant) 
+simulationOutput <- simulateResiduals(fittedModel = div_plant, plot = F)
+plot(simulationOutput) ## quantile deviations
+## check for multicolinearity
+check_collinearity(div_plant) ## all good (under 3)
+
+
+
+
+
+
+## Shrub tot_div
+div_plant <- glmmTMB(shrub_div ~ scale(Min_temp) + scale(Wind_speed) + Lunar_cycle + 
+                      scale(erica_cinerea) + scale(vaccinium_myrtilus) + 
+                      scale(grass) + scale(forb) + scale(pinus_sylvestris) + scale(betula_spp) + (1|visit) + 
+                      (1|Sub_site), data=moths_final, family="gaussian", na.action = "na.fail")
+summary(div_plant)
+# min temp (positive)
+# wind speed (negative)
+# vaccinium myrtilus (positive)
+# pinus sylvestris (positive)
+# betula spp (positive)
+
+div_plant_sum <- as.data.frame(coef(summary(div_plant))$cond)
+div_plant_sum$parameters <- row.names(div_plant_sum)
+row.names(div_plant_sum) <- 1:nrow(div_plant_sum)
+#div_plant_sum$`z value` <- NULL
+colnames(div_plant_sum)[4] <- "p_value"
+div_plant_sum <- as.data.frame(div_plant_sum)
+div_plant_sum$significance <- case_when(
+  div_plant_sum$p_value>=0.05 ~ "ns",
+  div_plant_sum$p_value<0.05 & div_plant_sum$p_value>=0.01 ~ "*",
+  div_plant_sum$p_value<0.01 & div_plant_sum$p_value>=0.001 ~ "**",
+  TRUE ~ "***"
+)
+div_plant_sum <- div_plant_sum%>%dplyr::select(parameters, Estimate, `Std. Error`, `z value`, p_value, significance)
+div_plant_sum$response<-"Shrub Species Diversity"
+div_plant_sum
+sum7<-div_plant_sum
+
+
+## check model assumptions
+testDispersion(div_plant) 
+simulationOutput <- simulateResiduals(fittedModel = div_plant, plot = F)
+plot(simulationOutput) ## quantile deviations
+## check for multicolinearity
+check_collinearity(div_plant) ## all good (under 3)
+
+summary_final<- rbind(sum1, sum2, sum3, sum4, sum5, sum6, sum7)
+summary_final
+write.csv(summary_final, "PlantCover_ModelOutputs.csv", row.names=FALSE)
+
+
+
+
 ############# Supplementary material plots
 
-plant_predictions <- rbind(abund_plants, rich_plants)
+plant_predictions <- rbind(abund_plants, div_plants)
 plant_predictions$response  = factor(plant_predictions$response, levels=c("Total \nabundance", 
                                                                           "Total \nspecies \nrichness", "Woodland \ntotal \nabundance",
                                                                           "Woodland \nspecies \nrichness", "Moorland \ntotal \nabundance",
@@ -1588,47 +2301,47 @@ moor_abund_vaccinium_raw$response <- "Moorland \ntotal \nabundance"
 moor_abund_vaccinium_raw$predictor <- "Vaccinium myrtilus"
 colnames(moor_abund_vaccinium_raw)[1:2] <- c("y", "x")
 
-rich_betula_raw <- moths_final[,c("richness", "betula_spp")]
-rich_betula_raw$response <- "Total \nspecies \nrichness"
-rich_betula_raw$predictor <- "Betula spp"
-colnames(rich_betula_raw)[1:2] <- c("y", "x")
+div_betula_raw <- moths_final[,c("richness", "betula_spp")]
+div_betula_raw$response <- "Total \nspecies \nrichness"
+div_betula_raw$predictor <- "Betula spp"
+colnames(div_betula_raw)[1:2] <- c("y", "x")
 
-rich_pine_raw <- moths_final[,c("richness", "pinus_sylvestris")]
-rich_pine_raw$response <- "Total \nspecies \nrichness"
-rich_pine_raw$predictor <- "Pinus sylvestris"
-colnames(rich_pine_raw)[1:2] <- c("y", "x")
+div_pine_raw <- moths_final[,c("richness", "pinus_sylvestris")]
+div_pine_raw$response <- "Total \nspecies \nrichness"
+div_pine_raw$predictor <- "Pinus sylvestris"
+colnames(div_pine_raw)[1:2] <- c("y", "x")
 
-rich_vaccinium_raw <- moths_final[,c("richness", "vaccinium_myrtilus")]
-rich_vaccinium_raw$response <- "Total \nspecies \nrichness"
-rich_vaccinium_raw$predictor <- "Vaccinium myrtilus"
-colnames(rich_vaccinium_raw)[1:2] <- c("y", "x")
+div_vaccinium_raw <- moths_final[,c("richness", "vaccinium_myrtilus")]
+div_vaccinium_raw$response <- "Total \nspecies \nrichness"
+div_vaccinium_raw$predictor <- "Vaccinium myrtilus"
+colnames(div_vaccinium_raw)[1:2] <- c("y", "x")
 
-wood_rich_betula_raw <- moths_final[,c("woodland_rich", "betula_spp")]
-wood_rich_betula_raw$response <- "Woodland \nspecies \nrichness"
-wood_rich_betula_raw$predictor <- "Betula spp"
-colnames(wood_rich_betula_raw)[1:2] <- c("y", "x")
+wood_div_betula_raw <- moths_final[,c("woodland_div", "betula_spp")]
+wood_div_betula_raw$response <- "Woodland \nspecies \nrichness"
+wood_div_betula_raw$predictor <- "Betula spp"
+colnames(wood_div_betula_raw)[1:2] <- c("y", "x")
 
-wood_rich_forb_raw <- moths_final[,c("woodland_rich", "forb")]
-wood_rich_forb_raw$response <- "Woodland \nspecies \nrichness"
-wood_rich_forb_raw$predictor <- "Forbs"
-colnames(wood_rich_forb_raw)[1:2] <- c("y", "x")
+wood_div_forb_raw <- moths_final[,c("woodland_div", "forb")]
+wood_div_forb_raw$response <- "Woodland \nspecies \nrichness"
+wood_div_forb_raw$predictor <- "Forbs"
+colnames(wood_div_forb_raw)[1:2] <- c("y", "x")
 
-wood_rich_vaccinium_raw <- moths_final[,c("woodland_rich", "vaccinium_myrtilus")]
-wood_rich_vaccinium_raw$response <- "Woodland \nspecies \nrichness"
-wood_rich_vaccinium_raw$predictor <- "Vaccinium myrtilus"
-colnames(wood_rich_vaccinium_raw)[1:2] <- c("y", "x")
+wood_div_vaccinium_raw <- moths_final[,c("woodland_div", "vaccinium_myrtilus")]
+wood_div_vaccinium_raw$response <- "Woodland \nspecies \nrichness"
+wood_div_vaccinium_raw$predictor <- "Vaccinium myrtilus"
+colnames(wood_div_vaccinium_raw)[1:2] <- c("y", "x")
 
-moor_rich_pine_raw <- moths_final[,c("moorland_rich", "pinus_sylvestris")]
-moor_rich_pine_raw$response <- "Moorland \nspecies \nrichness"
-moor_rich_pine_raw$predictor <- "Pinus sylvestris"
-colnames(moor_rich_pine_raw)[1:2] <- c("y", "x")
+moor_div_pine_raw <- moths_final[,c("moorland_div", "pinus_sylvestris")]
+moor_div_pine_raw$response <- "Moorland \nspecies \nrichness"
+moor_div_pine_raw$predictor <- "Pinus sylvestris"
+colnames(moor_div_pine_raw)[1:2] <- c("y", "x")
 
 
 raw_dat <- rbind(abund_betula_raw, abund_pine_raw, abund_vaccinium_raw, wood_abund_betula_raw, 
                  wood_abund_pine_raw, wood_abund_vaccinium_raw, moor_abund_betula_raw, 
-                 moor_abund_pine_raw, moor_abund_vaccinium_raw, rich_betula_raw, 
-                 rich_pine_raw, rich_vaccinium_raw, wood_rich_betula_raw, wood_rich_forb_raw,
-                 wood_rich_vaccinium_raw, moor_rich_pine_raw)
+                 moor_abund_pine_raw, moor_abund_vaccinium_raw, div_betula_raw, 
+                 div_pine_raw, div_vaccinium_raw, wood_div_betula_raw, wood_div_forb_raw,
+                 wood_div_vaccinium_raw, moor_div_pine_raw)
 raw_dat$response  = factor(raw_dat$response, levels=c("Total \nabundance",
                                                       "Total \nspecies \nrichness", "Woodland \ntotal \nabundance",
                                                       "Woodland \nspecies \nrichness", "Moorland \ntotal \nabundance",
@@ -1653,4 +2366,6 @@ a <- c("a#aa
 plot2 <- remove_facets(plot2, a)
 plot2
 ggsave(plot2, file="Graphs/Plant_cover_supplementary_plot.png", height=5, width=7)
+
+
 
