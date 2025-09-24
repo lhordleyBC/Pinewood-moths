@@ -25,7 +25,6 @@ library(lsmeans)
 library(lme4)
 library(MuMIn)
 library(multcomp)
-library(grid)
 ## Get raw data
 moth <- read.csv("Data/Moth_data.csv", header=TRUE)
 
@@ -112,7 +111,6 @@ p2<-ggplot() +
 p3 <- ggarrange(p1, p2, labels=c("(a)", "(b)"), font.label=list(size=18))
 
 ggsave(p3, file="Graphs/NMDS.png", height=8, width=15)
-ggsave(p3, file="Graphs/NMDS.pdf", height=8, width=15)
 
 
 
@@ -198,7 +196,7 @@ moth_wide<- moth_wide %>%
                                "Moorland" = 1, 
                                "Early Successional Woodland" = 2, 
                                "Mature Woodland" = 3 ))%>%
-  dplyr::select(Plot, Treatment, Treatment_code, 3:ncol(.))
+  select(Plot, Treatment, Treatment_code, 3:ncol(.))
 head(moth_wide)
 treat_dist<- as.matrix(vegdist(moth_wide[3], method="euclidean"))
 treat_dist
@@ -225,11 +223,6 @@ Moran.I(data.scores$NMDS2, geo_dist_inv, scaled=TRUE, alternative="two.sided") #
 ## Moran's I = 0.57 (expected = -0.02); sd=0.07, p<0.001
 ##
 
-## 2. NMDS3
-Moran.I(data.scores$NMDS3, geo_dist_inv, scaled=TRUE, alternative="two.sided") ## Cannot reject null hypothesis of spatial-autocorrelation along NMDS2
-## Moran's I = 0.57 (expected = -0.02); sd=0.07, p<0.001
-##
-
 ################# Mantel tests: Correlation between matrices ##################################
 
 ##Compare geo_dist matrix with a matrix of compositional dissimilarities
@@ -251,6 +244,11 @@ mantel.partial(comp_dist, treat_dist, geo_dist)  ## Mantel R= 0.276, - so is wea
 
 ############### Run some simple models
 
+## Distance models
+mod1<-lm(comp_dist~treat_dist+geo_dist, data=plot_data)
+summary(mod1)
+## Significant effect of both treatment distance and geographic distance on community dissimilarity, with a greater effect of treatment 
+
 
 ## Modelling NMDS axes as a function of treatment
 hist(data.scores$NMDS1)
@@ -258,21 +256,34 @@ hist(data.scores$NMDS2)
 
 mod2<- glmmTMB(NMDS1~treatment + (1|site), family="gaussian", data=data.scores)
 summary(mod2)  
-mod3<- glmmTMB(NMDS2~treatment + (1|site), family="gaussian", data=data.scores)
-summary(mod3)  
-testDispersion(mod2) # looks good
 
+testDispersion(mod2) # looks good
+simulationOutput <- simulateResiduals(fittedModel = mod2, plot = F)
+plot(simulationOutput) ## no assumptions violated
+
+car::vif(mod2) # all <3
+r.squaredGLMM(mod2) # 35%
 
 # Pairwise differences in management effects
 glht1 <- glht(mod2, mcp(treatment="Tukey"))
 summary(glht1) 
+# no significant difference between regen and moorland
+# significant difference between woodland and moorland
+# significant difference between woodland and regen
+
+# produce summary
+CI <- summary(glht1)
+rich_treatment <- data.frame(tidy(CI))
+rich_treatment$response <- "Broadleaf richness"
+
+
+
+
 
 
 
 ############### xy plots of distance values
 head(comp_dist)
-head(treat_dist)
-diag(treat_dist)<-NA
 plot_data<- geo_dist %>% 
   as.data.frame() %>%
   mutate(plot1=rownames(.))%>% 
@@ -283,35 +294,11 @@ plot_data<- comp_dist %>% as.data.frame() %>%
 plot_data<- treat_dist %>% as.data.frame() %>%
   mutate(plot1=rownames(.))%>% gather("plot2", "treat_dist", 1:(ncol(.)-1))%>%
   left_join(plot_data, by=c("plot1", "plot2"))%>%
-  filter(!is.na(treat_dist))
+  filter(treat_dist!=0&comp_dist!=0&geo_dist!=0)
 head(plot_data)
-
-
-
-p1<-ggplot(plot_data%>%filter(geo_dist>=3))+
-  geom_point(aes(x=geo_dist, y=comp_dist, col=as.factor(treat_dist)), alpha=0.2)+
-  theme_classic()+
-  geom_smooth(aes(x=geo_dist, y=comp_dist, col=as.factor(treat_dist)), method="lm",alpha=0.6)+
+ggplot(plot_data)+
+  geom_point(aes(x=geo_dist, y=comp_dist, col=as.factor(treat_dist)))+
+  theme_bw()+
   labs(x="Geographic Distance (km)", y="Compositional Dissimilarity (Bray-Curtis)")+
-  scale_colour_discrete(name="Treatment \nDifference")
-
-
-p2<-ggplot(plot_data)+
-  geom_point(aes(x=geo_dist, y=comp_dist, col=as.factor(treat_dist)), alpha=0.2)+
-  theme_classic()+
-  geom_smooth(aes(x=geo_dist, y=comp_dist, col=as.factor(treat_dist)), method="lm", alpha=0.6)+
-  labs(x="Geographic Distance (km)", y="Compositional Dissimilarity (Bray-Curtis)")+
-  scale_colour_discrete(name="Treatment \nDifference")
-
-p3<-ggarrange(p2+theme(axis.title=element_text(size=10)), 
-              p1+theme(axis.title=element_text(size=10)),
-              common.legend=TRUE, legend="right", labels=c("a", "b"), align="hv")
-p3
-ggsave(p3, file="Graphs/Supplementary_SAC.png")
-## Distance models
-mod1<-lm(comp_dist~treat_dist*geo_dist, data=plot_data)
-mod1<-glmmTMB(comp_dist~treat_dist+geo_dist + (1|plot2), family="gaussian", data=plot_data)
-summary(mod1)
-
-## Significant effect of both treatment distance and geographic distance on community dissimilarity, with a greater effect of treatment 
+  scale_colour_discrete(name="Step difference in treatment")
 
